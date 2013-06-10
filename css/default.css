@@ -1,7 +1,8 @@
 body {
 background: #373737;
 color:#e5e5e5;
-font:95% 'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
+font:90% "Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS","Lucida Sans Unicode",'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
+
 line-height:1.2em;
 margin:0 auto;
 padding:0;
@@ -151,7 +152,7 @@ dark-orange #e39c1f
 h2 {
 border-bottom:1px solid #e5e5e5;
 color:#0383c9;
-font-size:1.7em;
+font-size:1.5em;
 font-weight:100;
 letter-spacing:-1px;
 margin:0 0 10px;
@@ -182,7 +183,7 @@ color: #23af4c;
 color:#f4f4f4;
 margin:10px auto;
 padding:0;
-width:670px;
+width:800px;
 }
 
 #header {
@@ -206,7 +207,7 @@ font-size:1.5em;
 font-weight:700;
 letter-spacing:-1px;
 line-height:1.2em;
-margin:-15px 0 60px 0px;
+margin:20px 0 45px 0px;
 }
 div.slogan div { display:inline;}
 
@@ -215,12 +216,12 @@ div.slogan div { display:inline;}
 #content {
 float:left;
 line-height:1.5em;
-font-size:1.3em;
-font:Î¢ÈíÑÅºÚ,'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
+font-size:1.2em;
+font:'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
 margin:0;
 padding:0;
 text-align:left;
-width:500px;
+width:800px;
 }
 
 #contentalt {
