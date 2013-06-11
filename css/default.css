@@ -62,10 +62,10 @@ blockquote span {
 }
 
 pre { 
-font-family: Monaco, Courier;
+font-family: "Consolas",Consolas,monospace,"Lucida Sans Unicode";
 background: #191919;
 border: dashed 2px #e5e5e5;
- width: 600px;
+ width: 800px;
 padding: 5px;
 font-size:1em;
 line-height: 2em;
