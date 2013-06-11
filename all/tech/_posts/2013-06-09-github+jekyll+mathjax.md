@@ -69,13 +69,16 @@ kramdown支持公式，要在_config.yml中添加'markdown:  kramdown'
     行间式
     $$
 
-In equation $$\eqref{eq:sample}$$, we find the value of an
+[开启编号功能](3)
+In equation ($$\ref{sample}$$), we find the value of an
 interesting integral:
 
+$$
 \begin{equation}
   \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
-  \label{eq:sample}
+  \label{sample}
 \end{equation}
+$$
 
 ####5.添加Disqus评论模块
 
@@ -98,3 +101,5 @@ interesting integral:
 [1] [Jekyll使用MathJax来显示数学式](http://cyukang.com/2013/03/03/try-mathjax.html)
 
 [2] [怎样使用Markdown](http://www.ituring.com.cn/article/23)
+
+[3] [MathJax让你爱上数学公式](http://zhiqiang.org/blog/it/mathjax-make-mathematics-beautiful.html)
