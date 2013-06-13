@@ -45,7 +45,7 @@ li { padding:0 4px; color:#DDD; list-style: none; }
 ul.posts li span { float:right; font-family:'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif; color:#888; }
 ul.posts li a { font-weight:200;}
 
-div#post ul li { list-style: circle; }
+div#post ul li { list-style: square; }
 
 blockquote {
 border-left:8px solid #0383c9;
