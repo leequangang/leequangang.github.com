@@ -71,6 +71,7 @@ code {
 pre {
 font-family: "Consolas",Consolas,monospace,"Lucida Sans Unicode";
 background: #222222;
+border:1px solid #0383c9;
 width: 800px;
 padding: 5px;
 font-size:1.1em;
