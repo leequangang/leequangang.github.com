@@ -66,9 +66,9 @@ code {
 	background: #222222;
 	font-size:1em;
 	line-height: 1.2em;
-}
+	}
 
-pre { 
+pre {
 font-family: "Consolas",Consolas,monospace,"Lucida Sans Unicode";
 background: #222222;
 width: 800px;
@@ -76,7 +76,15 @@ padding: 5px;
 font-size:1.1em;
 line-height: 1.5em;
 clear:both;
-overflow: auto;
+
+/***overflow: auto; 这句是滚动条****/
+
+
+/***下面是自动换行****/
+white-space:pre;
+white-space:pre-wrap;
+word-break:break-all;
+word-wrap:break-word;
 }
 
 
@@ -335,7 +343,7 @@ table
 td, th 
   {
   font-size:1em;
-  border:1px solid  #456879;
+  border:1px solid  #0383C9;
   padding:3px 7px 2px 7px;
   }
 

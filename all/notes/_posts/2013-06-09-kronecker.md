@@ -32,7 +32,6 @@ Kronecker graphs即能服从已发现的众多静态网络的性质，也遵从�
 - BA
 - 变种
 
-Kronecker graph[[1]][1]
-: Kronecker graph of order $$k$$ is defined by the adjacency matrix $$K_1^k$$, where $$K_1$$ is the Kronecker initiator adjacency matrix.
+**Kronecker graph[[1]][1]:**Kronecker graph of order $$k$$ is defined by the adjacency matrix $$K_1^k$$, where $$K_1$$ is the Kronecker initiator adjacency matrix.
 
 [1]: http://scholar.google.com.hk/scholar?q=Kronecker+Graphs+An+Approach+to+Modeling+Networks&btnG=&hl=zh-CN&as_sdt=0%2C5&as_vis=1

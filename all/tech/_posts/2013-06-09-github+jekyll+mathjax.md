@@ -101,35 +101,26 @@ $$
 		layout: post
 		title: "Github+jekyll+Mathjax搭建Blog"
 		---
-- 可以用三个以上的`~~~`来定义代码块开始与结束，甚至可以在后面添加语言名称实现语法高亮，如
+- 可以用三个以上的`~~~`来定义代码块开始与结束如
 
-		~~~ ruby
+		~~~
 		def what?
 		  42
 		end
 		~~~
 
-
-
-~~~ ruby
-def what?
-  42
-end
-~~~
-
-
-
-~~~ c++
+~~~~
 #include "trim_mean.h"
 #include <iostream>
 int main()
 {
   int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
   double tm = trimmean<int>(8, x, 0.5);
-  std::cout << "The mean of the interior of the x array is: "<< tm<<std::endl;
+  std::cout <<"The mean of the interior of the x array is: "<<tm<<std::endl;
   return 0;
 }
-~~~
+~~~~
+
 
 - 插入图片：在`_config.yml`中定义变量`img_url: http://leequangang.github.com/images`然后在.md文档中插入
 `![logo图片]({{ site.img_url }}/logo.png)`即可现实图片
