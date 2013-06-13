@@ -102,3 +102,5 @@ $$
 [2] [怎样使用Markdown](http://www.ituring.com.cn/article/23)
 
 [3] [MathJax让你爱上数学公式](http://zhiqiang.org/blog/it/mathjax-make-mathematics-beautiful.html)
+
+[4] [显示公式](http://liuhongjiang.github.io/tech/blog/2012/11/21/math/)
