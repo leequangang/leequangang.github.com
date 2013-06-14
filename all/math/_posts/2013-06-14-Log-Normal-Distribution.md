@@ -10,11 +10,9 @@ In probability theory, a log-normal distribution is a continuous probability dis
 
 - If $$X\sim\mathcal{N}(\mu,\delta^2)$$ is a normal distribution, then $$\exp(X)\sim Log-\mathcal{N}(\mu,\delta^2)$$.
 - If $$X\sim Log-\mathcal{N}(\mu,\delta^2)$$ is distributed log-normally, then $$\ln(X)\sim\mathcal{N}(\mu,\delta^2)$$ is a normal random variable.
-![logn]({{ site.img_url }}/math/logn.gif)
 
 ![lognpdf]({{ site.img_url }}/math/lognpdf.png)
 
-![logncdf]({{ site.img_url }}/math/logncdf.png)
 
 相关的Matlab函数
 lognfit、logncdf、lognpdf、lognrnd、
