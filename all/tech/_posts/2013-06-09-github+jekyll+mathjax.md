@@ -64,7 +64,7 @@ jekyll中文编码问题 'C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\j
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 kramdown支持公式，要在_config.yml中添加'markdown:  kramdown'
-行内公式用$$ 行内公式$$
+行内公式用`$$行内公式$$`,
 行间公式要另起空行结束也要空行
 
 

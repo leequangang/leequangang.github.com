@@ -19,10 +19,11 @@ lognfit、logncdf、lognpdf、lognrnd、
 histfit(A,25,'lognormal')
 
 ###参考
-[1] [logn distribution-wolfram mathworld][r1]
 
-[r1]: http://mathworld.wolfram.com/LogNormalDistribution.html "logn"
+[1] [Log-normal distribution][r1]
 
-[2] [Log-normal distribution][r2]
+[r1]: http://en.wikipedia.org/wiki/Log-normal_distribution "wiki"
 
-[r2]: http://en.wikipedia.org/wiki/Log-normal_distribution "wiki"
+[2] [logn distribution-wolfram mathworld][r2]
+
+[r2]: http://mathworld.wolfram.com/LogNormalDistribution.html "logn"
