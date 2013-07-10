@@ -7,7 +7,7 @@ title: "Kronecker Graphs"
 
 [1][Leskovec-2010-Kronecker Graphs An Approach to Modeling Networks](http://scholar.google.com.hk/scholar?q=Kronecker+Graphs+An+Approach+to+Modeling+Networks&btnG=&hl=zh-CN&as_sdt=0%2C5&as_vis=1)
 
-一个好的真是网络生成模型有2点用处：  
+一个好的真实网络生成模型有2点用处：  
 1. 用于推断实、假设检验、模拟，当真网络很难获得或者不可能获得时（未来网络不可能获得）  
 2. 强迫我们去思考真实网络的性质（这算是什么用处）
 

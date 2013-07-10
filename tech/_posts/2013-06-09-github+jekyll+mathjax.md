@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Github+jekyll+Mathjax搭建Blog"
+tags: [jekyll, github, markdown]
 ---
 
 
@@ -89,7 +90,8 @@ $$
 ###注意 
 
 - .md文件名不能是中文 否则会出错
-- 命名规则为`年-月-日-英文名.md`
+- 文件名的单词间不能有空格，用+代替
+- 命名规则为`年-月-日-英文名.md`，例如`2013-06-09-github+jekyll+mathjax.md`
 - 可以利用`{:toc}`来自动生成目录
 
 		- 这里是目录(编译后这句话会被忽略)
