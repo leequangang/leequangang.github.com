@@ -14,11 +14,11 @@ In probability theory, a log-normal distribution is a continuous probability dis
 ![lognpdf]({{ site.img_url }}/math/lognpdf.png)
 
 
-相关的Matlab函数
+Related Matlab function:
 lognfit、logncdf、lognpdf、lognrnd、
 histfit(A,25,'lognormal')
 
-###参考
+###References
 
 [1] [Log-normal distribution][r1]
 
