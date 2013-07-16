@@ -26,21 +26,21 @@ tags: [openmp, 并行]
 
 ###实验
 
-- 初始CPU占用状态
+- 初始CPU占用状态  ![lognpdf]({{ site.img_url }}/math/lognpdf.png)
 
-![cpu0]({{site.img_url}}/tech/cpu0.png)
+![cpu0]({{ site.img_url }}/tech/cpu0.png)
 
 - 串行时CPU占用状态，可见单CPU占用率高
 
-![cpu1]({{site.img_url}}/tech/cpu1.png)
+![cpu1]({{ site.img_url }}/tech/cpu1.png)
 
 - 并行时CPU占用状态（默认线程个数4个），所有的CPU线程都利用起来了
 
-![cpu0]({{site.img_url}}/tech/cpu2.png)
+![cpu0]({{ site.img_url }}/tech/cpu2.png)
 
 - 并行8线程时CPU占用状态，应该是对应上图中CPU利用率又提升了点，又见缝插针地利用了空闲的CPU运算资源
 
-![cpu0]({{site.img_url}}/tech/cpu3-8threads.png)
+![cpu0]({{ site.img_url }}/tech/cpu3-8threads.png)
 
 - 我的台式机是i5-3210M 双核四线程，应该是两个物理内核，每个内核有两个逻辑线程。并行化后是有4个线程，但是时间提升仅1倍。有个小孩的作业是抄文章100遍，现在有俩小孩就是两个物理内核，每个小孩可以用左右手一块抄（不过眼睛要时不时在左右手间巡视检查错误，相当于调度）这就有了逻辑上四线程。在串行模式下是一个物理内核的资源运行一个逻辑线程。Intel超线程（Hyper-Threading）技术使处理器增加5%的裸晶面积，就可以换来15%~30%的效能提升，HT能使一个物理内核的资源运行两个逻辑线程。在开启HT下，OpenMP既使用了两个物理内核又在每个内核中开启了2个线程，但是提升主要体现在利用了第二个物理内核，而同一内核的多线程对提升来说效果次之（或者说线程过多反而增加了调度时间）
 

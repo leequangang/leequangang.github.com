@@ -125,7 +125,7 @@ int main()
 
 
 - 插入图片：在`_config.yml`中定义变量`img_url: http://leequangang.github.com/images` 然后在.md文档中插入
-![logo图片]（｛｛site.img_ url}}/logo.png)即可现实图片
+![logo图片]（｛｛site.img_ url }}/logo.png)即可现实图片
 
 - 脚注[^id]定义是：`[^1]:`，引用语法是`[^1]`
 
