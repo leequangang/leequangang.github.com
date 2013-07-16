@@ -26,7 +26,7 @@ tags: [openmp, 并行]
 
 ###实验
 
-- 初始CPU占用状态  ![lognpdf]({{ site.img_url }}/math/lognpdf.png)
+- 初始CPU占用状态
 
 ![cpu0]({{ site.img_url }}/tech/cpu0.png)
 
