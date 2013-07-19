@@ -52,7 +52,7 @@ layout: default
 
 
 <!-- This is for Disqus -->
-<a id="a_comments" href="#" onclick="javascript:toggleComments(); return false;"><h3>Show Comments >></h3></a>
+<a id="a_comments" href="#" onclick="javascript:toggleComments(); return false;"><h3>Show Comments &raquo</h3></a>
 <div class="comments" id="div_comments" style="display: none">
  <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -79,10 +79,10 @@ function toggleComments() {
     var a = document.getElementById('a_comments');
     if (d.style['display'] == 'none') {
         d.style['display'] = 'block';
-        a.innerHTML = 'Hide Comments <<';
+        a.innerHTML = 'Hide Comments &laquo';
     } else {
         d.style['display'] = 'none';
-        a.innerHTML='Show Comments >>';
+        a.innerHTML='Show Comments &raquo';
     }
     return false;
 }
