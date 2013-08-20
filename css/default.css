@@ -62,14 +62,14 @@ blockquote span {
 }
 
 code {
-    font-family: "Consolas",Consolas,monospace,"Lucida Sans Unicode";
+    font-family: "Consolas",Tahoma,Helvetica,Arial,monospace,"Lucida Sans Unicode";
 	background: #222222;
 	font-size:1em;
 	line-height: 1.2em;
 	}
 
 pre {
-font-family: "Consolas",Consolas,monospace,"Lucida Sans Unicode";
+font-family: "Consolas",Tahoma,Helvetica,Arial,monospace,"Lucida Sans Unicode";
 background: #222222;
 border:1px solid #0383c9;
 width: auto px;
@@ -115,7 +115,7 @@ font-size:6em;
 letter-spacing:-5px;
 margin:0 0 30px 0px;
 padding:50px 0 0 0;
-font-family:'Gentium Book Basic',Tahoma,Helvetica,Arial;;
+font-family:'Gentium Book Basic',Tahoma,Helvetica,Arial;
 
 }
 
