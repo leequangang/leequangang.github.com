@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Strut:利用impress.js制作Web版PPT"
+title: "Strut: 利用impress.js制作Web版PPT"
 tags: [impress, strut, html5, js]
 published: ture
 ---
 
 
-##Strut:利用impress.js制作Web版PPT
+##Strut: 利用impress.js制作Web版PPT
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
