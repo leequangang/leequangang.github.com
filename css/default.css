@@ -16,6 +16,7 @@ font-weight:700;
 text-decoration:none;
 }
 
+
 a:hover {
 text-decoration:underline;
 color: #f5a2c6;
@@ -373,3 +374,13 @@ strong
  {
   color:#D96D21;
   }
+
+
+  #author {
+text-decoration:none;
+}
+
+.signature{
+font-family:'Tangerine';
+font-size:32px;
+}
