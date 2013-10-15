@@ -68,7 +68,7 @@ MathJax.Hub.Config({
 </script>
 ~~~~
 
-不过结果生成的PPT里面的公式邮件弹出的窗口失效了，不知如何修改了。另外这样的PPT需要联网使用Mathjax，当然也可以把上面的Mathjax地址换成自己的本地版就可以再本地使用了。
+不过结果生成的PPT里面的公式右键弹出的窗口失效了，不知如何修改了。另外这样的PPT需要联网使用Mathjax，当然也可以把上面的Mathjax地址换成自己的本地版就可以在本地使用了。
 
 [这是我自己编译的一个本地版 with Mathjax](http://pan.baidu.com/s/1km05o)
 
