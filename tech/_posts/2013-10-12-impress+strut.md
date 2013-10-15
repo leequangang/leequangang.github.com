@@ -37,6 +37,16 @@ Strut可以使用css，可用markdown来编写，应该也可以用mathjax，可
 
     - 编译`grunt build`：编译完会发现多出了一个dist的目录，这个目录就是已编译的网页了，和下载的本地版本一样的，直接在浏览器中打开使用。(Chorme可以打开，firefox好像不行)
 
+ps:后来换了个linux虚拟机，安装成功了。
+
+1. 编译安装node.js, `wget http://nodejs.org/dist/v0.10.20/node-v0.10.20.tar.gz`，解压后编译安装，`./configure、make、make install`
+
+2. 安装插件`npm install -g grunt-cli`
+
+3. 下载strut `git clone https://github.com/tantaman/Strut.git`
+
+4. 第4、5步跟上面一样。
+
 ###With Mathjax
 后来测试了一下，把Strut里面的`\test\index.html`、`\app\index.html`、\app\preview_export 里面的`bespoke.html`、`handouts.html`、`impress.html`这五个html文件的`</head>`的前面里添上 Mathjax 的代码
 
