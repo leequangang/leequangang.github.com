@@ -23,15 +23,15 @@ Strut可以使用css，可用markdown来编写，应该也可以用mathjax，可
 
 不过可以从Github上下载自己编译使用（编译出来的就跟上面的本地版是一样的）。Linux下的编译方法[[1]][r1]在安装插件时出现很多错误没搞定，我**在windows上编译成功了**。
 
-- 1、首先安装[node.js](http://nodejs.org/)(node.js是个很强大的工具，但我用不到...)，版本要在v0.8版之后不然grunt安装不成功。
+1. 首先安装[node.js](http://nodejs.org/)(node.js是个很强大的工具，但我用不到...)，版本要在v0.8版之后不然grunt安装不成功。
 
-- 2、安装grunt，`npm install grunt`。
+2. 安装grunt，`npm install grunt`。
 
-- 3、然后去Github上下载Strut，（这里遇到一个大坑，折腾到晚上2点才搞明白，原来Github上的Download下来的zip里面的文件是不完整的，有好些文件都缺失，太坑了，通过Github的桌面版Clone下来才是完整的，莫非我中奖了？）
+3. 然后去Github上下载Strut，（这里遇到一个大坑，折腾到晚上2点才搞明白，原来Github上的Download下来的zip里面的文件是不完整的，有好些文件都缺失，太坑了，通过Github的桌面版Clone下来才是完整的，莫非我中奖了？）
 
-- 4、进入Strut目录安装所需插件`npm install`
+4. 进入Strut目录安装所需插件`npm install`
 
-- 5、最后就是使用方法了，有两种：
+5. 最后就是使用方法了，有两种：
 
     - 运行`grunt server`：运行后直接可以在浏览器上使用localhost:9000访问
 
