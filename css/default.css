@@ -392,3 +392,16 @@ font-size:32px;
   font-size:36px;
   font-style:normal;
 }
+
+.sa_bookmark{
+display: block;
+width:50px;
+height:190px;
+background: url('/images/share.png') no-repeat top;
+ position: fixed;
+top:10%;
+padding-top: 19px; 
+right: 5%;
+z-index: 10; 
+}
+.sa_bookmark a { width: 30px; height: 30px; margin-left:10px; display: block; }
