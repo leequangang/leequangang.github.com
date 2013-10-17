@@ -4,6 +4,8 @@ title: "Kronecker Graphs"
 ---
 
 ## Kronecker Graphs ##
+- This will become a table of contents (this text will be scraped).
+{:toc}
 
 [1][Leskovec-2010-Kronecker Graphs An Approach to Modeling Networks](http://scholar.google.com.hk/scholar?q=Kronecker+Graphs+An+Approach+to+Modeling+Networks&btnG=&hl=zh-CN&as_sdt=0%2C5&as_vis=1)
 
