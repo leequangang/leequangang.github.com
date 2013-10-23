@@ -23,8 +23,8 @@ a、在cmd下运行`nw test`
 b、将\test下的文件打包成zip，然后重命名成.nw，拖进nw.exe即可运行，或者cmd下运行`nw test.nw`  
 **c、cmd下`copy /b nw.exe+test.nw test.exe`将nw.exe与test.nw打包成一个exe文件，双击可运行；同时可以连同dll文件和nw.pak一起作为桌面应用发布。其他平台下具体见[官网方法](https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps) **  
 4. 关于Logo，窗体设置等简单见如下配置文件
-~~~~
 
+~~~~
 {
     "main": "index.html",                              /* APP的主入口，文件名任意；必选 */
     "name": "nw-demo",                                /* APP的名称，必须具备唯一性，且符合正常变量命名；必选 */
@@ -40,7 +40,6 @@ b、将\test下的文件打包成zip，然后重命名成.nw，拖进nw.exe即�
     },
     "user-agent": "%name %ver %nwver %webkit_ver %osinfo" /* 可自定义APP的UA */
 }
-
 ~~~~
 
 ###heX
