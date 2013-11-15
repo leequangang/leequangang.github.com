@@ -21,7 +21,7 @@ published: ture
 
 [一个较好的解](http://blog.renren.com/share/200664926/8272075389)
 
-[完美的数学解法](http://freemind.pluskid.org/machine-learning/a-compressed-sense-of-compressive-sensing-ii/) （牛啊牛）[这是下载的存档](http://pan.baidu.com/s/1j9mkg)
+[完美的数学解法](http://freemind.pluskid.org/machine-learning/a-compressed-sense-of-compressive-sensing-ii/) （牛啊牛）[这是下载的存档](http://www.kuaipan.cn/file/id_160332705412677633.htm)
 
 
 ###参考
