@@ -43,7 +43,7 @@ b、将\test下的文件打包成zip，然后重命名成.nw，拖进nw.exe即�
 ~~~~
 
 一定记住，除了test.exe， 还需要附带一系列的插件。
-在 windows 下，nw.pak以及icudt.dll是必须的。前者提供了重要的JavaScript库，后者提供了一些重要的网络库。带上 ffmpegsumo.dll 用来提供对 <video> 和 <audio> 标签的支持。libEGL.dll 以及 libGLESv2.dll 提供 WebGL 以及 GPU 加速的支持。
+在 windows 下，nw.pak以及icudt.dll是必须的。前者提供了重要的JavaScript库，后者提供了一些重要的网络库。带上 ffmpegsumo.dll 用来提供对 `<video>` 和 `<audio>` 标签的支持。libEGL.dll 以及 libGLESv2.dll 提供 WebGL 以及 GPU 加速的支持。
 
 
 ###heX
