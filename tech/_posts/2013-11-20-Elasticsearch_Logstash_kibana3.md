@@ -91,8 +91,16 @@ pyes包
 
 （3）   安全性问题。正如在（1）中提到，使用 Get 的时候，参数会显示在地址栏上，而 Post 不会。所以，如果这些数据是中文数据而且是非敏感数据，那么使用 get；如果用户输入的数据不是中文字符而且包含敏感数据，那么还是使用 post为好。
 
+###版本1.0
 
+bin/elasticsearch 前台启动  
+bin/elasticsearch -d 后台启动
 
+###安装Marvel 监控插件
+
+- 运行`bin/plugin -i elasticsearch/marvel/latest`
+
+- 打开查看`http://any-server-in-cluster:9200/_plugin/marvel/`
 
 
 安装libcurl  `sudo apt-get install libcurl4-openssl-dev`
