@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kronecker Graphs"
+tags: [Graphs,Kronecker]
 ---
 
 ## Kronecker Graphs ##

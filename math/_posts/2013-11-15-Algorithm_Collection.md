@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "算法集锦"
-tags: [Algorithm，算法]
+tags: [Algorithm,算法]
 published: ture
 ---
 

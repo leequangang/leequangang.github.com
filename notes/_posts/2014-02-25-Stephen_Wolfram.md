@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "多源信息分析"
-tags: [jekyll, github, markdown]
+title: "The Personal Analytics of My Life"
+tags: [日志,分析]
 published: ture
 ---
 
 
-##title
+##The Personal Analytics of My Life
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
 给大家推荐一篇博文：
-斯蒂芬. 沃尔夫勒姆（Stephen Wolfram）的“我的生活分析（The Personal Analytics of My Life）
+斯蒂芬. 沃尔夫勒姆（Stephen Wolfram）的 "我的生活分析（The Personal Analytics of My Life）"
 
 博文地址：[http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/](http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/)
 
