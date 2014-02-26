@@ -55,8 +55,8 @@ layout: default_share
 
 
 <!-- This is for Disqus -->
-<a id="a_comments" href="#" onclick="javascript:toggleComments(); return false;"><h3>Show Comments &raquo</h3></a>
-<div class="comments" id="div_comments" style="display: none">
+<a id="a_comments" href="#" onclick="javascript:toggleComments(); return false;"><h3>Hidden Comments &raquo</h3></a>
+<div class="comments" id="div_comments" style="display: true">
 
 
 
@@ -81,7 +81,7 @@ layout: default_share
 <!-- This is for show/hidden Disqus -->
 
 <script type="text/javascript">
-// Toggle comments section. Hidden by default.
+// Toggle comments section. Show by default.
 function toggleComments() {
     var d = document.getElementById('div_comments');
     var a = document.getElementById('a_comments');
