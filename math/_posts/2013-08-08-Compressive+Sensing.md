@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "压缩感知"
+title: "压缩感知(占位贴，慎入)"
 tags: [Compressive Sensing, 压缩感知， cs]
 published: ture
 ---
