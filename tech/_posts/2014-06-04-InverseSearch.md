@@ -14,14 +14,18 @@ published: ture
   正反向搜索意思是双击一段tex代码可以定位到对应到的pdf段落，同样双击一段pdf文本可以定位到相应的tex代码。学习了[“常用编辑器正反向搜索的配置”][r1]中的方法，挺复杂的，下面简单记一下自己的测试结果。默认已经将需要用到的命令写入环境变量。
   
 ###所需条件
+
 1. 编译tex时要生成扩展名为synctex的索引文件
+
 2. pdf阅读器支持读取该索引文件
 
 既然如此我们就先搞定这两个条件。  
 
 首先是生成索引文件：
+
 - 用命令行编译：可以在pdflatex、latex等命令后加上参数`-synctex=-1` ，  
 如`pdflatex -synctex=-1 my.tex`
+
 - Ctex下编译：Ctex的winedt下设置`Options -> Executions Modes -> PDF Viewer`在`Use --synctex`处打勾，synctex的值改成1、-1或0试一下，我的本来是-1改成1后就能搜索了。1是把文件压缩了，不知道为何这样就起作用了。
 
 (注意千万不要让clean.bat等自己写的批处理把生成的索引文件给删除了！)  
