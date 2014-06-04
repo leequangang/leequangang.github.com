@@ -31,6 +31,7 @@ published: ture
 一般情况下安装完Ctex后用自带的SumatraPDF就能使用正反向搜索，如果失败就按上面说的修改一下synctex的值。pdf阅读器的选择余地不大，但是tex编辑器有很多种，想要pdf定位到tex就在pdf阅读器中设置，想tex定位到pdf就在编辑器中设置。
 
 接下来主要讲一下notepad++与pdf间的正反向搜索。
+
 ###pdf-->tex
 **pdf-->tex需要配置pdf阅读器**  
 
