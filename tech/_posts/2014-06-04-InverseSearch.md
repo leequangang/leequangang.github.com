@@ -39,7 +39,7 @@ published: ture
 ###pdf-->tex
 **pdf-->tex需要配置pdf阅读器**  
 
-- notepad++:下载SumatraPDF，在选项-设置反向搜索命令行中填入`notepad++.exe -n%l "%f"`,默认notepad++已经加入环境变量。打开具有同名synctex索引文件的pdf时会出现以上选项，否则没有，如果没有该选项就在高级选项中加入一行`InverseSearchCmdLine = notepad++.exe -n%l "%f"`  
+- notepad++:下载SumatraPDF，在"选项-设置-反向搜索命令行"中填入`notepad++.exe -n%l "%f"`,默认notepad++已经加入环境变量。打开具有同名synctex索引文件的pdf时会出现以上选项，否则没有，如果没有该选项就在高级选项中加入一行`InverseSearchCmdLine = notepad++.exe -n%l "%f"`  
 
 - winedt编辑器就是`InverseSearchCmdLine = "C:\CTEX\WinEdt\WinEdt.exe" "[Open(|%f|);SelPar(%l,8);]"`  
 
