@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 明朝皇帝世系图.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="23.8031in" height="22.8858in"
+		viewBox="0 0 1713.83 1647.78" xml:space="preserve" color-interpolation-filters="sRGB" class="st15">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#205867;stroke-dasharray:2.25,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st2 {fill:#4bacc6;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#ffffff;font-family:微软雅黑;font-size:1.33333em}
+		.st4 {font-size:0.874996em}
+		.st5 {fill:#d8d8d8;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#f9c499;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {font-size:1em}
+		.st9 {fill:#ffffff;font-family:微软雅黑;font-size:1.16666em}
+		.st10 {stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {fill:#9c4a09;font-family:宋体;font-size:1.99999em;font-weight:bold}
+		.st13 {fill:#a5a5a5;font-family:宋体;font-size:4.00001em;font-weight:bold}
+		.st14 {fill:#a5a5a5;font-family:Times New Roman;font-size:1.99999em}
+		.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape49-1" v:mID="49" v:groupContext="shape" transform="translate(961.772,-572.452)">
+			<title>工作表.49</title>
+			<path d="M0 1647.78 L526.42 1647.78 L526.42 1236.76 L0 1236.76 L0 1647.78 Z" class="st1"/>
+		</g>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" transform="translate(232.441,-1559.48)">
+			<title>工作表.1</title>
+			<desc>1 太祖-洪武-朱元璋 31年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1 太祖-洪武-朱元璋<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">31</tspan><tspan
+						class="st4">年</tspan><tspan class="st4">）</tspan></text>		</g>
+		<g id="shape2-10" v:mID="2" v:groupContext="shape" transform="translate(69.4094,-1471.32)">
+			<title>工作表.2</title>
+			<desc>太子-朱标</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st5"/>
+			<text x="42.53" y="1630.18" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>太子-朱标</text>		</g>
+		<g id="shape3-13" v:mID="3" v:groupContext="shape" transform="translate(69.4094,-1383.15)">
+			<title>工作表.3</title>
+			<desc>2 惠宗-建文-朱允炆 5年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2 惠宗-建文-朱允炆<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">5</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape4-20" v:mID="4" v:groupContext="shape" transform="translate(395.394,-1471.32)">
+			<title>工作表.4</title>
+			<desc>3 成祖-永乐-朱棣 23年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="16.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3 成祖-永乐-朱棣<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">23</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape12-27" v:mID="12" v:groupContext="shape" v:layerMember="0" transform="translate(140.315,-1471.32)">
+			<title>动态连接线.12</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape13-30" v:mID="13" v:groupContext="shape" transform="translate(395.394,-1383.15)">
+			<title>工作表.13</title>
+			<desc>4 仁宗-洪熙-朱高炽 1年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4 仁宗-洪熙-朱高炽<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">1</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape14-37" v:mID="14" v:groupContext="shape" transform="translate(395.394,-1294.98)">
+			<title>工作表.14</title>
+			<desc>5 宣宗-宣德-朱瞻基 11年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5 宣宗-宣德-朱瞻基<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">11</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape15-44" v:mID="15" v:groupContext="shape" v:layerMember="0" transform="translate(466.299,-1471.32)">
+			<title>动态连接线.15</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape16-47" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(466.299,-1383.15)">
+			<title>动态连接线.16</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape18-50" v:mID="18" v:groupContext="shape" transform="translate(226.367,-1206.81)">
+			<title>工作表.18</title>
+			<desc>6 英宗-正统天顺-朱祁镇 23年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="106.502" cy="1625.38" width="213.01" height="44.7897"/>
+			<rect x="0" y="1602.99" width="213.003" height="44.7897" class="st2"/>
+			<text x="4.52" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6 英宗-正统（天顺）-朱祁镇<v:newlineChar/><tspan
+						x="77.29" dy="1.371em" class="st4">（</tspan><tspan class="st4">23</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape19-57" v:mID="19" v:groupContext="shape" transform="translate(544.252,-1206.81)">
+			<title>工作表.19</title>
+			<desc>7 代宗-景泰-朱祁钰 9年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7 代宗-景泰-朱祁钰<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">9</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape24-64" v:mID="24" v:groupContext="shape" transform="translate(250.624,-1118.65)">
+			<title>工作表.24</title>
+			<desc>8 宪宗-成化-朱见深 24年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>8 宪宗-成化-朱见深<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">24</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape25-71" v:mID="25" v:groupContext="shape" transform="translate(250.624,-1030.48)">
+			<title>工作表.25</title>
+			<desc>9 孝宗-弘治-朱祐樘 19年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>9 孝宗-弘治-朱祐樘<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">19</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape26-78" v:mID="26" v:groupContext="shape" transform="translate(544.252,-1030.48)">
+			<title>工作表.26</title>
+			<desc>兴献王-朱祐杬</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st5"/>
+			<text x="26.53" y="1630.18" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>兴献王-朱祐杬</text>		</g>
+		<g id="shape29-81" v:mID="29" v:groupContext="shape" transform="translate(250.624,-942.31)">
+			<title>工作表.29</title>
+			<desc>10武宗-正德-朱厚照 17年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>10武宗-正德-朱厚照<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">17</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape30-88" v:mID="30" v:groupContext="shape" transform="translate(544.252,-942.31)">
+			<title>工作表.30</title>
+			<desc>11世宗-嘉靖-朱厚熜 46年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>11世宗-嘉靖-朱厚熜<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">46</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape31-95" v:mID="31" v:groupContext="shape" transform="translate(544.252,-854.142)">
+			<title>工作表.31</title>
+			<desc>12穆宗-隆庆-朱载垕 7年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>12穆宗-隆庆-朱载垕<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">7</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape32-102" v:mID="32" v:groupContext="shape" transform="translate(544.252,-765.974)">
+			<title>工作表.32</title>
+			<desc>13神宗-万历-朱翊钧 48年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>13神宗-万历-朱翊钧<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">48</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape33-109" v:mID="33" v:groupContext="shape" transform="translate(544.252,-677.806)">
+			<title>工作表.33</title>
+			<desc>14光宗-泰昌-朱常洛 1月</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>14光宗-泰昌-朱常洛<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">1</tspan><tspan class="st4">月</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape34-116" v:mID="34" v:groupContext="shape" transform="translate(1007.2,-677.806)">
+			<title>工作表.34</title>
+			<desc>福王-朱常洵</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st5"/>
+			<text x="34.53" y="1630.18" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>福王-朱常洵</text>		</g>
+		<g id="shape35-119" v:mID="35" v:groupContext="shape" transform="translate(1300.08,-677.806)">
+			<title>工作表.35</title>
+			<desc>桂王-朱常瀛</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st5"/>
+			<text x="34.53" y="1630.18" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>桂王-朱常瀛</text>		</g>
+		<g id="shape36-122" v:mID="36" v:groupContext="shape" transform="translate(374.173,-589.639)">
+			<title>工作表.36</title>
+			<desc>15熹宗-天启-朱由校 8年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>15熹宗-天启-朱由校<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">8</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape37-129" v:mID="37" v:groupContext="shape" transform="translate(714.331,-589.639)">
+			<title>工作表.37</title>
+			<desc>16思宗-崇祯-朱由检 17年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st2"/>
+			<text x="5.69" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>16思宗-崇祯-朱由检<v:newlineChar/><tspan
+						x="48.78" dy="1.371em" class="st4">（</tspan><tspan class="st4">17</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape38-136" v:mID="38" v:groupContext="shape" transform="translate(1007.2,-589.639)">
+			<title>工作表.38</title>
+			<desc>1 安宗-弘光-朱由崧 1年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st7"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1 安宗-弘光-朱由崧<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">1</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape39-143" v:mID="39" v:groupContext="shape" transform="translate(1300.08,-589.639)">
+			<title>工作表.39</title>
+			<desc>4 昭宗-永历-朱由榔 16年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st7"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4 昭宗-永历-朱由榔<v:newlineChar/><tspan
+						x="44.61" dy="1.2em" class="st8">（</tspan>16年）</text>		</g>
+		<g id="shape40-147" v:mID="40" v:groupContext="shape" transform="translate(1007.2,-765.974)">
+			<title>工作表.40</title>
+			<desc>2 绍宗-隆武-朱聿键 1年</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st7"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2 绍宗-隆武-朱聿键<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">1</tspan><tspan class="st4">年</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape41-154" v:mID="41" v:groupContext="shape" transform="translate(1300.08,-765.974)">
+			<title>工作表.41</title>
+			<desc>3 文宗-绍武-朱聿鐭 1月</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st7"/>
+			<text x="8.01" y="1620.58" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3 文宗-绍武-朱聿鐭<v:newlineChar/><tspan
+						x="52.89" dy="1.371em" class="st4">（</tspan><tspan class="st4">1</tspan><tspan class="st4">月</tspan><tspan
+						class="st4">）</tspan></text>		</g>
+		<g id="shape45-161" v:mID="45" v:groupContext="shape" transform="translate(1139.53,-1471.32)">
+			<title>工作表.45</title>
+			<desc>唐王-朱桱</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st5"/>
+			<text x="46.96" y="1629.58" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>唐王-朱桱</text>		</g>
+		<g id="shape47-164" v:mID="47" v:groupContext="shape" transform="translate(1139.53,-854.142)">
+			<title>工作表.47</title>
+			<desc>唐裕王-朱器墭</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="77.9921" cy="1625.38" width="155.99" height="44.7897"/>
+			<rect x="0" y="1602.99" width="155.984" height="44.7897" class="st5"/>
+			<text x="26.53" y="1630.18" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>唐裕王-朱器墭</text>		</g>
+		<g id="shape70-167" v:mID="70" v:groupContext="shape" v:layerMember="0" transform="translate(321.53,-1206.81)">
+			<title>动态连接线</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape71-170" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(321.53,-1118.65)">
+			<title>动态连接线.71</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape72-173" v:mID="72" v:groupContext="shape" v:layerMember="0" transform="translate(321.53,-1030.48)">
+			<title>动态连接线.72</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape74-176" v:mID="74" v:groupContext="shape" v:layerMember="0" transform="translate(615.157,-942.31)">
+			<title>动态连接线.74</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape75-179" v:mID="75" v:groupContext="shape" v:layerMember="0" transform="translate(615.157,-854.142)">
+			<title>动态连接线.75</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape76-182" v:mID="76" v:groupContext="shape" v:layerMember="0" transform="translate(615.157,-1030.48)">
+			<title>动态连接线.76</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape77-185" v:mID="77" v:groupContext="shape" v:layerMember="0" transform="translate(615.157,-765.974)">
+			<title>动态连接线.77</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape78-188" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(1078.11,-677.806)">
+			<title>动态连接线.78</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape79-191" v:mID="79" v:groupContext="shape" v:layerMember="0" transform="translate(1370.98,-677.806)">
+			<title>动态连接线.79</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
+		<g id="shape80-194" v:mID="80" v:groupContext="shape" v:layerMember="0" transform="translate(1210.43,-1471.32)">
+			<title>动态连接线.80</title>
+			<path d="M7.09 1647.78 L7.09 2220.16" class="st10"/>
+		</g>
+		<g id="shape81-197" v:mID="81" v:groupContext="shape" v:layerMember="0" transform="translate(310.433,-1559.48)">
+			<title>动态连接线.81</title>
+			<path d="M0 1647.78 L0 1667.56 L-163.03 1667.56" class="st6"/>
+		</g>
+		<g id="shape82-200" v:mID="82" v:groupContext="shape" v:layerMember="0" transform="translate(140.315,-1539.71)">
+			<title>动态连接线.82</title>
+			<path d="M7.09 1647.78 L7.09 1671.38" class="st6"/>
+		</g>
+		<g id="shape83-203" v:mID="83" v:groupContext="shape" v:layerMember="0" transform="translate(310.433,-1539.71)">
+			<title>动态连接线.83</title>
+			<path d="M0 1647.78 L171.46 1647.78 L171.46 1671.38" class="st6"/>
+		</g>
+		<g id="shape84-206" v:mID="84" v:groupContext="shape" v:layerMember="0" transform="translate(481.89,-1539.71)">
+			<title>动态连接线.84</title>
+			<path d="M0 1647.78 L735.63 1647.78 L735.63 1671.38" class="st6"/>
+		</g>
+		<g id="shape85-209" v:mID="85" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-1294.98)">
+			<title>动态连接线.85</title>
+			<path d="M0 1647.78 L0 1667.32 L-144.57 1667.32" class="st6"/>
+		</g>
+		<g id="shape86-212" v:mID="86" v:groupContext="shape" v:layerMember="0" transform="translate(321.732,-1275.44)">
+			<title>动态连接线.86</title>
+			<path d="M7.09 1647.78 L7.09 1671.62" class="st6"/>
+		</g>
+		<g id="shape87-215" v:mID="87" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-1275.44)">
+			<title>动态连接线.87</title>
+			<path d="M0 1647.78 L148.86 1647.78 L148.86 1671.62" class="st6"/>
+		</g>
+		<g id="shape88-218" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(328.616,-1096.86)">
+			<title>动态连接线.88</title>
+			<path d="M0 1647.78 L293.63 1647.78 L293.63 1669.37" class="st6"/>
+		</g>
+		<g id="shape89-221" v:mID="89" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-677.806)">
+			<title>动态连接线.89</title>
+			<path d="M0 1647.78 L0 1671.33 L-168.7 1671.33" class="st6"/>
+		</g>
+		<g id="shape90-224" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(446.457,-654.253)">
+			<title>动态连接线.90</title>
+			<path d="M7.09 1647.78 L7.09 1667.6" class="st6"/>
+		</g>
+		<g id="shape91-227" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-654.253)">
+			<title>动态连接线.91</title>
+			<path d="M0 1647.78 L170.08 1647.78 L170.08 1667.6" class="st6"/>
+		</g>
+		<g id="shape92-230" v:mID="92" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-742.53)">
+			<title>动态连接线.92</title>
+			<path d="M0 1647.78 L460.59 1647.78 L460.59 1667.71" class="st6"/>
+		</g>
+		<g id="shape93-233" v:mID="93" v:groupContext="shape" v:layerMember="0" transform="translate(1082.83,-742.53)">
+			<title>动态连接线.93</title>
+			<path d="M0 1647.78 L295.24 1647.78 L295.24 1667.71" class="st6"/>
+		</g>
+		<g id="shape95-236" v:mID="95" v:groupContext="shape" v:layerMember="0" transform="translate(1217.52,-854.142)">
+			<title>动态连接线.95</title>
+			<path d="M0 1647.78 L0 1668.68 L-140.35 1668.68" class="st6"/>
+		</g>
+		<g id="shape97-239" v:mID="97" v:groupContext="shape" v:layerMember="0" transform="translate(1070.08,-833.239)">
+			<title>动态连接线.97</title>
+			<path d="M7.09 1647.78 L7.09 1670.25" class="st6"/>
+		</g>
+		<g id="shape98-242" v:mID="98" v:groupContext="shape" v:layerMember="0" transform="translate(1217.52,-833.239)">
+			<title>动态连接线.98</title>
+			<path d="M0 1647.78 L162.95 1647.78 L162.95 1670.25" class="st6"/>
+		</g>
+		<g id="shape99-245" v:mID="99" v:groupContext="shape" transform="translate(1006.83,-938.892)">
+			<title>工作表.99</title>
+			<desc>南明</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="1637.78" width="152.01" height="20"/>
+			<rect x="0" y="1627.78" width="152" height="20" class="st11"/>
+			<text x="51.91" y="1644.98" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>南明</text>		</g>
+		<g id="shape100-248" v:mID="100" v:groupContext="shape" transform="translate(537.61,-402.373)">
+			<title>工作表.100</title>
+			<desc>明朝皇帝世系图</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="190.894" cy="1625.38" width="381.79" height="44.7897"/>
+			<rect x="0" y="1602.99" width="381.787" height="44.7897" class="st11"/>
+			<text x="22.24" y="1639.78" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>明朝皇帝世系图</text>		</g>
+		<g id="shape101-251" v:mID="101" v:groupContext="shape" transform="translate(961.772,-379.978)">
+			<title>工作表.101</title>
+			<desc>made by LQG</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="190.894" cy="1625.38" width="381.79" height="44.7897"/>
+			<rect x="0" y="1602.99" width="381.787" height="44.7897" class="st11"/>
+			<text x="122.25" y="1632.58" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>made by LQG</text>		</g>
+	</g>
+</svg>
