@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 生成 明朝皇帝世系图.svg Page-1 -->
+<!-- 由 Microsoft Visio, SVG Export 生成 ming.svg Page-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="23.8031in" height="22.8858in"
 		viewBox="0 0 1713.83 1647.78" xml:space="preserve" color-interpolation-filters="sRGB" class="st15">
@@ -12,16 +12,16 @@
 
 	<style type="text/css">
 	<![CDATA[
-		.st1 {fill:#ffffff;stroke:#205867;stroke-dasharray:2.25,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st1 {fill:none;stroke:#205867;stroke-dasharray:2.25,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
 		.st2 {fill:#4bacc6;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st3 {fill:#ffffff;font-family:微软雅黑;font-size:1.33333em}
 		.st4 {font-size:0.874996em}
-		.st5 {fill:#d8d8d8;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#7f7f7f;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {stroke:#ea700d;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
 		.st7 {fill:#f9c499;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st8 {font-size:1em}
 		.st9 {fill:#ffffff;font-family:微软雅黑;font-size:1.16666em}
-		.st10 {stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {stroke:#ea700d;stroke-dasharray:10.5,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
 		.st11 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st12 {fill:#9c4a09;font-family:宋体;font-size:1.99999em;font-weight:bold}
 		.st13 {fill:#a5a5a5;font-family:宋体;font-size:4.00001em;font-weight:bold}
@@ -276,7 +276,7 @@
 			<title>动态连接线</title>
 			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
 		</g>
-		<g id="shape71-170" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(321.53,-1118.65)">
+		<g id="shape71-170" v:mID="71" v:groupContext="shape" v:layerMember="0" transform="translate(318.898,-1118.65)">
 			<title>动态连接线.71</title>
 			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
 		</g>
@@ -296,106 +296,106 @@
 			<title>动态连接线.76</title>
 			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
 		</g>
-		<g id="shape77-185" v:mID="77" v:groupContext="shape" v:layerMember="0" transform="translate(615.157,-765.974)">
-			<title>动态连接线.77</title>
-			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
-		</g>
-		<g id="shape78-188" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(1078.11,-677.806)">
+		<g id="shape78-185" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(1078.11,-677.806)">
 			<title>动态连接线.78</title>
 			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
 		</g>
-		<g id="shape79-191" v:mID="79" v:groupContext="shape" v:layerMember="0" transform="translate(1370.98,-677.806)">
+		<g id="shape79-188" v:mID="79" v:groupContext="shape" v:layerMember="0" transform="translate(1370.98,-677.806)">
 			<title>动态连接线.79</title>
 			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
 		</g>
-		<g id="shape80-194" v:mID="80" v:groupContext="shape" v:layerMember="0" transform="translate(1210.43,-1471.32)">
+		<g id="shape80-191" v:mID="80" v:groupContext="shape" v:layerMember="0" transform="translate(1210.43,-1471.32)">
 			<title>动态连接线.80</title>
 			<path d="M7.09 1647.78 L7.09 2220.16" class="st10"/>
 		</g>
-		<g id="shape81-197" v:mID="81" v:groupContext="shape" v:layerMember="0" transform="translate(310.433,-1559.48)">
+		<g id="shape81-194" v:mID="81" v:groupContext="shape" v:layerMember="0" transform="translate(310.433,-1559.48)">
 			<title>动态连接线.81</title>
 			<path d="M0 1647.78 L0 1667.56 L-163.03 1667.56" class="st6"/>
 		</g>
-		<g id="shape82-200" v:mID="82" v:groupContext="shape" v:layerMember="0" transform="translate(140.315,-1539.71)">
+		<g id="shape82-197" v:mID="82" v:groupContext="shape" v:layerMember="0" transform="translate(140.315,-1539.71)">
 			<title>动态连接线.82</title>
 			<path d="M7.09 1647.78 L7.09 1671.38" class="st6"/>
 		</g>
-		<g id="shape83-203" v:mID="83" v:groupContext="shape" v:layerMember="0" transform="translate(310.433,-1539.71)">
+		<g id="shape83-200" v:mID="83" v:groupContext="shape" v:layerMember="0" transform="translate(310.433,-1539.71)">
 			<title>动态连接线.83</title>
 			<path d="M0 1647.78 L171.46 1647.78 L171.46 1671.38" class="st6"/>
 		</g>
-		<g id="shape84-206" v:mID="84" v:groupContext="shape" v:layerMember="0" transform="translate(481.89,-1539.71)">
+		<g id="shape84-203" v:mID="84" v:groupContext="shape" v:layerMember="0" transform="translate(481.89,-1539.71)">
 			<title>动态连接线.84</title>
 			<path d="M0 1647.78 L735.63 1647.78 L735.63 1671.38" class="st6"/>
 		</g>
-		<g id="shape85-209" v:mID="85" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-1294.98)">
+		<g id="shape85-206" v:mID="85" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-1294.98)">
 			<title>动态连接线.85</title>
 			<path d="M0 1647.78 L0 1667.32 L-144.57 1667.32" class="st6"/>
 		</g>
-		<g id="shape86-212" v:mID="86" v:groupContext="shape" v:layerMember="0" transform="translate(321.732,-1275.44)">
+		<g id="shape86-209" v:mID="86" v:groupContext="shape" v:layerMember="0" transform="translate(321.732,-1275.44)">
 			<title>动态连接线.86</title>
 			<path d="M7.09 1647.78 L7.09 1671.62" class="st6"/>
 		</g>
-		<g id="shape87-215" v:mID="87" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-1275.44)">
+		<g id="shape87-212" v:mID="87" v:groupContext="shape" v:layerMember="0" transform="translate(473.386,-1275.44)">
 			<title>动态连接线.87</title>
 			<path d="M0 1647.78 L148.86 1647.78 L148.86 1671.62" class="st6"/>
 		</g>
-		<g id="shape88-218" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(328.616,-1096.86)">
+		<g id="shape88-215" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(328.616,-1096.86)">
 			<title>动态连接线.88</title>
 			<path d="M0 1647.78 L293.63 1647.78 L293.63 1669.37" class="st6"/>
 		</g>
-		<g id="shape89-221" v:mID="89" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-677.806)">
+		<g id="shape89-218" v:mID="89" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-677.806)">
 			<title>动态连接线.89</title>
 			<path d="M0 1647.78 L0 1671.33 L-168.7 1671.33" class="st6"/>
 		</g>
-		<g id="shape90-224" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(446.457,-654.253)">
+		<g id="shape90-221" v:mID="90" v:groupContext="shape" v:layerMember="0" transform="translate(446.457,-654.253)">
 			<title>动态连接线.90</title>
 			<path d="M7.09 1647.78 L7.09 1667.6" class="st6"/>
 		</g>
-		<g id="shape91-227" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-654.253)">
+		<g id="shape91-224" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-654.253)">
 			<title>动态连接线.91</title>
 			<path d="M0 1647.78 L170.08 1647.78 L170.08 1667.6" class="st6"/>
 		</g>
-		<g id="shape92-230" v:mID="92" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-742.53)">
+		<g id="shape92-227" v:mID="92" v:groupContext="shape" v:layerMember="0" transform="translate(622.244,-742.53)">
 			<title>动态连接线.92</title>
 			<path d="M0 1647.78 L460.59 1647.78 L460.59 1667.71" class="st6"/>
 		</g>
-		<g id="shape93-233" v:mID="93" v:groupContext="shape" v:layerMember="0" transform="translate(1082.83,-742.53)">
+		<g id="shape93-230" v:mID="93" v:groupContext="shape" v:layerMember="0" transform="translate(1082.83,-742.53)">
 			<title>动态连接线.93</title>
 			<path d="M0 1647.78 L295.24 1647.78 L295.24 1667.71" class="st6"/>
 		</g>
-		<g id="shape95-236" v:mID="95" v:groupContext="shape" v:layerMember="0" transform="translate(1217.52,-854.142)">
+		<g id="shape95-233" v:mID="95" v:groupContext="shape" v:layerMember="0" transform="translate(1217.52,-854.142)">
 			<title>动态连接线.95</title>
-			<path d="M0 1647.78 L0 1668.68 L-140.35 1668.68" class="st6"/>
+			<path d="M0 1647.78 L-0 1668.68 L-140.35 1668.68" class="st6"/>
 		</g>
-		<g id="shape97-239" v:mID="97" v:groupContext="shape" v:layerMember="0" transform="translate(1070.08,-833.239)">
+		<g id="shape97-236" v:mID="97" v:groupContext="shape" v:layerMember="0" transform="translate(1070.08,-833.239)">
 			<title>动态连接线.97</title>
 			<path d="M7.09 1647.78 L7.09 1670.25" class="st6"/>
 		</g>
-		<g id="shape98-242" v:mID="98" v:groupContext="shape" v:layerMember="0" transform="translate(1217.52,-833.239)">
+		<g id="shape98-239" v:mID="98" v:groupContext="shape" v:layerMember="0" transform="translate(1217.52,-833.239)">
 			<title>动态连接线.98</title>
 			<path d="M0 1647.78 L162.95 1647.78 L162.95 1670.25" class="st6"/>
 		</g>
-		<g id="shape99-245" v:mID="99" v:groupContext="shape" transform="translate(1006.83,-938.892)">
+		<g id="shape99-242" v:mID="99" v:groupContext="shape" transform="translate(1006.83,-938.892)">
 			<title>工作表.99</title>
 			<desc>南明</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="76" cy="1637.78" width="152.01" height="20"/>
 			<rect x="0" y="1627.78" width="152" height="20" class="st11"/>
 			<text x="51.91" y="1644.98" class="st12" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>南明</text>		</g>
-		<g id="shape100-248" v:mID="100" v:groupContext="shape" transform="translate(537.61,-402.373)">
+		<g id="shape100-245" v:mID="100" v:groupContext="shape" transform="translate(537.61,-402.373)">
 			<title>工作表.100</title>
 			<desc>明朝皇帝世系图</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="190.894" cy="1625.38" width="381.79" height="44.7897"/>
 			<rect x="0" y="1602.99" width="381.787" height="44.7897" class="st11"/>
 			<text x="22.24" y="1639.78" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>明朝皇帝世系图</text>		</g>
-		<g id="shape101-251" v:mID="101" v:groupContext="shape" transform="translate(961.772,-379.978)">
+		<g id="shape101-248" v:mID="101" v:groupContext="shape" transform="translate(961.772,-379.978)">
 			<title>工作表.101</title>
 			<desc>made by LQG</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="190.894" cy="1625.38" width="381.79" height="44.7897"/>
 			<rect x="0" y="1602.99" width="381.787" height="44.7897" class="st11"/>
 			<text x="122.25" y="1632.58" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>made by LQG</text>		</g>
+		<g id="shape102-251" v:mID="102" v:groupContext="shape" v:layerMember="0" transform="translate(616.535,-765.974)">
+			<title>动态连接线.102</title>
+			<path d="M7.09 1647.78 L7.09 1691.16" class="st6"/>
+		</g>
 	</g>
 </svg>
