@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "tex与pdf之间搜索与反向搜索关联"
-tags: [jekyll, github, markdown]
+tags: [Latex,编辑器]
 published: ture
 ---
 
