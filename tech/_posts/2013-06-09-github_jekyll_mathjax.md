@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Github+jekyll+Mathjax搭建Blog"
-tags: [jekyll, github, markdown]
+tags: [jekyll, github, markdown, mathjax]
 ---
 
 
@@ -165,6 +165,9 @@ int main()
 |===
 | Footer row
 
+- [Markdown的一些常用语法[6]](http://hawstein.com/posts/markdown-syntax.html)
+
+
 ###参考
 [0] [google][f0]
 
@@ -179,6 +182,8 @@ int main()
 [4] [显示公式](http://liuhongjiang.github.io/tech/blog/2012/11/21/math/)
 
 [5] [kramdown Syntax](http://kramdown.rubyforge.org/syntax.html)
+
+[6] [Markdown的常用语法](http://hawstein.com/posts/markdown-syntax.html)
 
 [linkid]: http://www.google.com/ "可选提示文本"
 [^id]: 这是脚注
