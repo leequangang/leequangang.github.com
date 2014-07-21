@@ -15,14 +15,29 @@ published: ture
 
 ###Elasticsearch
 
+Github项目地址[https://github.com/elasticsearch/elasticsearch](https://github.com/elasticsearch/elasticsearch)
+
 [2013-11-26止最新版0.90.7](https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.zip)
-默认端口
-port:9200
--d @
+(2014.7看到的是1.2.2版 [Download](http://www.elasticsearch.org/download))
+默认端口:9200。
+
 [5分钟教程](http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html)
 是模式自由的，随便给它个日志就会自动解析，但是最好是自定义一个映射表mapping，定义好各字段的数据类型。
 
-使用基本流程：
+####<ElasticSearch Server>中2.2 Mapping中例子
+
+1. 新建索引库: curl -XPOST http://localhost:9200/library
+
+2. 导入mapping: curl -XPOST http://localhost:9200/library/book/_mapping -d @mapping.json
+
+3. 批量执行导入数据命令：curl -XPOST http://localhost:9200/library/book/_bulk --data-binary @documents.json
+
+4. 查看数据：curl -XGET http://localhost:9200/library/book/_search?pretty=true
+
+**注意：** 书中的mapping导入会出错，提示 boolean 型数据不能 be tokenized ，把最后的 "available" 字段改成 "not_analyzed"的即可。library 相当于建了一个数据库，book 是该数据库中的一张表，mapping 是这个表的结构（字段的类型、索引方式、存储方式等等），定义好这些后往表里面插入一条记录 ES 就会按照 mapping 定义的格式把记录进行分词、创建索引、存储等工作。
+
+
+####使用基本流程：
 
 1. 安装，用到中文可以安装[集成ik的ES版本](https://github.com/medcl/elasticsearch-rtf),启动方式见下面内容。查看是否启动,浏览器输入 http://localhost:9200/
 
