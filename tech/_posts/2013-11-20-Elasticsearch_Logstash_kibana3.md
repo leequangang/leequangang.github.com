@@ -24,7 +24,7 @@ Github项目地址[https://github.com/elasticsearch/elasticsearch](https://githu
 [5分钟教程](http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html)
 是模式自由的，随便给它个日志就会自动解析，但是最好是自定义一个映射表mapping，定义好各字段的数据类型。
 
-####<ElasticSearch Server>中2.2 Mapping中例子
+####《ElasticSearch Server》中2.2 Mapping中例子
 
 1. 新建索引库: curl -XPOST http://localhost:9200/library
 
