@@ -77,9 +77,9 @@ curl -s -XPOST localhost:9200/_bulk --data-binary @test.json
 {"nation" : "China", "city" : "Beijing", "year" : ["2012", "2014", "2015"]}
 ~~~~
 
--s/--silent        Silent mode. Don't output anything不输出信息
+`-s /--silent        Silent mode. Don't output anything不输出信息`
 
-curl -XPOST 'localhost:9200/_refresh' 刷新写入
+`curl -XPOST 'localhost:9200/_refresh' 刷新写入`
 
 各种[River plugin](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/modules-plugins.html)把数据传入ES
 [JDBC River Plugin](https://github.com/jprante/elasticsearch-river-jdbc)可以将Mysql的数据传入ES
