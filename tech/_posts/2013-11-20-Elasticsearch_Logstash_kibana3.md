@@ -54,7 +54,7 @@ Github项目地址[https://github.com/elasticsearch/elasticsearch](https://githu
 7. 删除索引库 curl -XDELETE http://localhost:9200/test/
 
 
-###RESTful语法
+####RESTful语法
 
 GET用来获取资源，POST用来新建资源（也可以用于更新资源），PUT用来更新资源，DELETE用来删除资源。
 
@@ -116,12 +116,12 @@ pyes包
 
 （3）   安全性问题。正如在（1）中提到，使用 Get 的时候，参数会显示在地址栏上，而 Post 不会。所以，如果这些数据是中文数据而且是非敏感数据，那么使用 get；如果用户输入的数据不是中文字符而且包含敏感数据，那么还是使用 post为好。
 
-###版本1.0
+####版本1.0
 
 bin/elasticsearch 前台启动  
 bin/elasticsearch -d 后台启动
 
-###安装Marvel 监控插件
+####安装Marvel 监控插件
 
 - 运行`bin/plugin -i elasticsearch/marvel/latest`
 
@@ -136,7 +136,7 @@ bin/elasticsearch -d 后台启动
 
 只输出单条记录的源字段，不包含头信息 curl -XGET 'http://localhost:9200/twitter/tweet/1/_source'
 
-#####插件
+####插件
 
 安装header--管理ES集群的，暂可不用
 
@@ -172,7 +172,7 @@ string, integer/long, float/double, boolean, and null, byte, short, binary
 ####集成版ES
 
 集成ik版
-https://github.com/medcl/elasticsearch-rtf
+[https://github.com/medcl/elasticsearch-rtf](https://github.com/medcl/elasticsearch-rtf)
 
 git clone git://github.com/medcl/elasticsearch-rtf.git es
 其中bin下的plgin没有运行权限需要添加
@@ -191,8 +191,6 @@ remove 取消启动时自动启动
 ~~~~
 
 
-
----------------------
 search?语句后添加pretty=true就是返回Json格式的结果，添加format=yaml就是返回yaml格式,什么都不加返回也是Json格式
 human=false关闭统计信息的可读性，如1kb变成1024，默认是true，就看想输出给计算机监控程序还是工作人员。
 
@@ -262,9 +260,9 @@ op_type=create或者_create：如果不存在就插入
 ~~~~
 
 
-###[Logstash](https://download.elasticsearch.org/logstash/logstash/logstash-1.2.2-flatjar.jar)
+###Logstash
 
-Logstash will give you a way to read, parse logs as well as push them into ES.
+[Logstash](https://download.elasticsearch.org/logstash/logstash/logstash-1.2.2-flatjar.jar) will give you a way to read, parse logs as well as push them into ES.
 
 java -jar logstash-1.2.2-flatjar.jar agent -f apache.conf -- web
 注意 -- 与web之间的空格，在paper的vps上运行可以，但是在dlp64上运行出错，不知原因？
