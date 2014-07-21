@@ -13,7 +13,9 @@ published: ture
 
 
 ###queries
+
 ####match query
+
 接受文本/数值/日期解析并构造查询条件.提供的文本会被分析构建为一个布尔型查询.
 
 ~~~~
@@ -34,7 +36,9 @@ published: ture
 
 }
 ~~~~
+
 ####multi match query
+
 多字段查询，兼容match的所有选项
 
 ~~~~
@@ -47,6 +51,7 @@ published: ture
   }
 }
 ~~~~
+
 ####bool query
 
 ~~~~
@@ -73,6 +78,7 @@ published: ture
     }
 }
 ~~~~
+
 ####boosting query
 
 ~~~~
@@ -94,6 +100,7 @@ published: ture
 ~~~~
 
 ####common terms query
+
 保留停用词进行查询，分成两类：低频词（重要）、高频词（不重要）。先检索低频词，然后在结果中检索高频词。
 
 ~~~~
@@ -114,6 +121,7 @@ published: ture
 ~~~~
 
 ####custom filters score query
+
 Replaced by **Function Score Query**.
 
 ~~~~
@@ -138,12 +146,15 @@ Replaced by **Function Score Query**.
 ~~~~
 
 ####custom score query
+
 Replaced by **Function Score Query**.
 
 ####custom boost factor query
+
 Replaced by **Function Score Query**.
 
 ####constant score query
+
 返回一个分值
 
 ~~~~
@@ -175,8 +186,11 @@ Replaced by **Function Score Query**.
     }
 }
 ~~~~
+
 ####field query？
+
 ####filtered query
+
 可以在一个查询的结果上应用一个过滤操作.
 
 ~~~~
@@ -215,6 +229,7 @@ Replaced by **Function Score Query**.
 ~~~~
 
 ####fuzzy like this field query
+
 同上，只是应用于单个字段
 ~~~~
 {
@@ -228,6 +243,7 @@ Replaced by **Function Score Query**.
 ~~~~
 
 ####function score query
+
 http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-function-score-query.html
 
 ####fuzzy query
@@ -244,11 +260,17 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-f
 ~~~~
 
 ####geoshape query
+
 ####has child query
+
 ####has parent query
+
 ####ids query
+
 ####indices query
+
 ####match all query
+
 A query that matches all documents.
 
 ~~~~
@@ -258,6 +280,7 @@ A query that matches all documents.
 ~~~~
 
 ####more like this query
+
 http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-mlt-query.html  
 查找最符合查询条件的文档
 
@@ -273,9 +296,11 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-m
 ~~~~
 
 ####more like this field query
+
 同上，只是应用于单个字段
 
 ####nested query
+
 嵌套查询
 
 ~~~~
@@ -306,6 +331,7 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-m
 http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-query-string-query.html
 
 ####range query
+
 返回范围内的查询结果
 
 ~~~~
@@ -321,16 +347,24 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-q
 ~~~~
 
 ####regexp query
+
 支持正则表达式查询  
 http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-regexp-query.html
 
 ####span first query？
+
 ####span multi term query？
+
 ####span near query？
+
 ####span not query?
+
 ####span or query?
+
 ####span term query?
+
 ####term query
+
 完全匹配一个词
 
 ~~~~
@@ -340,6 +374,7 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-r
 ~~~~
 
 ####terms query
+
 匹配多个词
 
 ~~~~
@@ -352,7 +387,9 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-r
 ~~~~
 
 ####top children query？
+
 ####wildcard query
+
 通配符查询
 
 ~~~~
@@ -362,9 +399,11 @@ http://www.elasticsearch.org/guide/en/elasticsearch/reference/master/query-dsl-r
 ~~~~
 
 ####minimum should match
+
 整数、负整数、百分数、负百分数、混合。。。
 
 ####multi term query rewrite
+
 ~~~~
 
 ~~~~

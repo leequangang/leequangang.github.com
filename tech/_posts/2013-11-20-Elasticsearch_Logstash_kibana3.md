@@ -12,7 +12,9 @@ published: ture
 {:toc}
 
 注:Elasticsearch与Logstash需要安装Java虚拟机，Kibana需要一个Web服务器。本身Logstash中内置也一个Elasticsearch和Kibana。
+
 ###Elasticsearch
+
 [2013-11-26止最新版0.90.7](https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.7.zip)
 默认端口
 port:9200
@@ -23,15 +25,22 @@ port:9200
 使用基本流程：
 
 1. 安装，用到中文可以安装[集成ik的ES版本](https://github.com/medcl/elasticsearch-rtf),启动方式见下面内容。查看是否启动,浏览器输入 http://localhost:9200/
+
 2. 新建索引库curl -XPOST 'http://localhost:9200/twitter/tweet'
+
 3. 上传定义的mapping，curl -XPOST http://localhost:9200/index/fulltext/_mapping -d 'mapping的内容'
+
 4. 插入Json格式数据，curl -XPOST 'http://localhost:9200/twitter/tweet' -d 'Json格式数据'
+
 5. 刷新生效，curl -XPOST 'http://localhost:9200/twitter/tweet/_refresh'
+
 6. 查询，curl -XPOST http://localhost:9200/test/my/_search -d 'Json格式的查询语句'
+
 7. 删除索引库 curl -XDELETE http://localhost:9200/test/
 
 
-RESTful语法
+###RESTful语法
+
 GET用来获取资源，POST用来新建资源（也可以用于更新资源），PUT用来更新资源，DELETE用来删除资源。
 
 ./bin/elasticsearch -f
@@ -57,6 +66,7 @@ curl -XPOST 'http://IP:9200/test' -d @lane.json
 
 ElasticSearch expects a JSON _object_, not an array 每个文件一条记录，要是一个文件有多条记录就要用到[bulk API](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-bulk.html)。其中Json文件中每条记录要用`\n`换行分隔
 
+~~~~
 curl -s -XPOST localhost:9200/_bulk --data-binary @test.json
 
 {"index" : {"_index" : "country", "_type" : "city"}}
@@ -65,7 +75,7 @@ curl -s -XPOST localhost:9200/_bulk --data-binary @test.json
 {"nation" : "USA", "city" : "Califorlia", "year" : ["2012", "2014", "2015"]}
 {"index" : {"_index" : "country", "_type" : "city"}}
 {"nation" : "China", "city" : "Beijing", "year" : ["2012", "2014", "2015"]}
-
+~~~~
 
 -s/--silent        Silent mode. Don't output anything不输出信息
 
@@ -112,10 +122,12 @@ bin/elasticsearch -d 后台启动
 只输出单条记录的源字段，不包含头信息 curl -XGET 'http://localhost:9200/twitter/tweet/1/_source'
 
 #####插件
+
 安装header--管理ES集群的，暂可不用
 
 
 1. elasticsearch/bin/下运行`./plugin -install mobz/elasticsearch-head`
+
 2. open http://localhost:9200/_plugin/head/
 
 安装中文分词ik----安装未成功，可以使用集成ik版的ES
@@ -143,6 +155,7 @@ string, integer/long, float/double, boolean, and null, byte, short, binary
 ~~~~
 
 ####集成版ES
+
 集成ik版
 https://github.com/medcl/elasticsearch-rtf
 
@@ -251,7 +264,9 @@ http://162.211.127.177:9292/index.html#/dashboard/file/logstash.json
 
 port:9292
 `logstash-1.2.2-flatjar\vendor\kibana\app\dashboards`下的logstash.json重命名为default.json就是logstash内置的Kibana界面，其他的.json是可以用户定制的界面
+
 ###Kibana
+
 kibana是一个功能强大的elasticsearch数据显示客户端，logstash已经内置了kibana，你也可以单独部署kibana，最新版的kibana3是纯html+js客户端，可以很方便的部署到Apache、Nginx等Http服务器。
 可以修改config.js来配置elasticsearch的地址和索引。
 看到一个kibana介绍页面，将logstash.json重命名为default.json后就是一个可查询的页面
@@ -263,8 +278,10 @@ http://blog.csdn.net/zhangyake88/article/details/15808923
 
 
 [kibana增加中国地图](http://blog.sectop.org/)
-1.将map.cn.js文件放到/panels/map/lib/目录下。
-2.修改/panels/map/editor.html,将['world','europe','usa']修改成['world','europe','usa','cn']即可
+
+1. 将map.cn.js文件放到/panels/map/lib/目录下。
+
+2. 修改/panels/map/editor.html,将['world','europe','usa']修改成['world','europe','usa','cn']即可
 
 
 
