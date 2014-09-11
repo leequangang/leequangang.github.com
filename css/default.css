@@ -2,6 +2,7 @@ body {
 background: #373737;
 color:#e5e5e5;
 font:90% "Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS","Lucida Sans Unicode",'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
+font-size:16px;
 
 line-height:1.2em;
 margin:0 auto;
@@ -63,10 +64,10 @@ blockquote span {
 }
 
 code {
-    font-family: "Consolas",Tahoma,Helvetica,Arial,monospace,"Lucida Sans Unicode";
+    font-family: "Consolas",Tahoma,Helvetica,"Microsoft YaHei",Arial,monospace,"Lucida Sans Unicode";
 	background: #222222;
 	font-size:1em;
-	line-height: 1.2em;
+	line-height: .8em;
 	}
 
 pre {
@@ -405,3 +406,8 @@ right: 4.2%;
 z-index: 10; 
 }
 .sa_bookmark a { width: 30px; height: 30px; margin-left:10px; display: block; }
+
+::selection {
+background: #E06C1F;
+color: white;
+}
