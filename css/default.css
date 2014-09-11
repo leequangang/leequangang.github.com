@@ -151,14 +151,14 @@ h1 a:hover { color:#fba919 ;}
 .green { color: #23af4c; }
 .blue { color: #0383c9; }
 .orange { color: #fba919; }
-.brown { color: #D96D21; }
+.brown { color: #E06C1F; }
 
 a.cyan:hover { color:#212121; background-color:#00CDFF;text-decoration:none; }
 a.pink:hover { border: solid 2px #f5a2c6;padding:1px; text-decoration:none;  }
 a.green:hover { color:#212121; background-color:#23af4c;text-decoration:none; }
 a.orange:hover {color:#fba919; padding:1px; border: solid 2px #fba919; text-decoration:none; }
 a.blue:hover { color:#212121; background-color:#0383c9;text-decoration:none; }
-a.brown:hover { color:#D96D21; padding:1px; border: solid 2px #D96D21;text-decoration:none; }
+a.brown:hover { color:#E06C1F; padding:1px; border: solid 2px #E06C1F;text-decoration:none; }
 .slogan a { padding:3px; line-height: 2.5em; }
 
 .commentslink { margin-bottom: 35px;display:block;border-bottom:solid 1px #dadada;padding-bottom:25px; }
@@ -373,7 +373,7 @@ tr.alt td
 
 strong
  {
-  color:#D96D21;
+  color:#E06C1F;
   }
 
 
@@ -408,6 +408,6 @@ z-index: 10;
 .sa_bookmark a { width: 30px; height: 30px; margin-left:10px; display: block; }
 
 ::selection {
-background: #E06C1F;
+background: #8ecf6c;
 color: white;
 }
