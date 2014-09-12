@@ -363,7 +363,7 @@ padding:2px;
 
 table
   {
-  
+  margin:0px 0px 20px 0px;
   width:100%;
   border-collapse:collapse;
   }
@@ -371,7 +371,7 @@ table
 td, th 
   {
   font-size:1em;
-  border:1px solid  #0383C9;
+  border:1px solid  #888 0383C9;
   padding:3px 7px 2px 7px;
   }
 
@@ -381,7 +381,7 @@ th
   text-align:left;
   padding-top:5px;
   padding-bottom:4px;
-  background-color:#0275AF;
+  background-color:#666;
   color:#f4f4f4;
   }
 
