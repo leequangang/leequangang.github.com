@@ -105,13 +105,13 @@ $$
 		---
 - 可以用三个以上的`~~~`来定义代码块开始与结束如
 
-		~~~
+		~~~Ruby
 		def what?
 		  42
 		end
 		~~~
 
-~~~~
+~~~~ C++
 #include "trim_mean.h"
 #include <iostream>
 int main()
