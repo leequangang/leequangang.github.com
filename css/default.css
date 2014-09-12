@@ -1,5 +1,5 @@
 body {
-background: #373737;
+background: #444;
 color:#e5e5e5;
 font:90% Tahoma,Arial,"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS","Lucida Sans Unicode",sans-serif;
 
@@ -65,7 +65,7 @@ blockquote span {
 
 code {
     font-family: "Consolas",Tahoma,Helvetica,"Microsoft YaHei",Arial,monospace,"Lucida Sans Unicode";
-	background: #222222;
+	background: #333;
 	font-size:1em;
 	line-height: .8em;
 	}
@@ -373,7 +373,7 @@ th
   padding-top:5px;
   padding-bottom:4px;
   background-color:#0275AF;
-  color:#ffffff;
+  color:#f4f4f4;
   }
 
 tr.alt td 
