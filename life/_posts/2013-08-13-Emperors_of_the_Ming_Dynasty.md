@@ -112,9 +112,7 @@ published: ture
 思宗，光宗第五子。即位后，诛杀魏忠贤，颇为勤政，勉力振作，无奈积重难反，各地农民起义不断爆发，北方皇太极又不断骚扰入侵，又崇祯性多疑，刚愎自用。终于在1644年，李自成攻入北京，崇祯帝在景山自缢身亡。时年35岁。死前于兰色袍服上大书“勿伤百姓一人”。
 
 
-![ming]({{ site.img_url }}/life/ming.svg)
-<img src="/images/life/ming.svg" />
-<img src="{{ site.img_url }}/life/ming.svg" />
+<img src="{{ site.img_url }}/life/ming.svg" width="800" alt="明朝皇帝世系图"/>
 
 ###世系表
 
