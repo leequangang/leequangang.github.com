@@ -64,17 +64,17 @@ jekyll中文编码问题 'C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\j
 
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-kramdown支持公式，要在_config.yml中添加'markdown:  kramdown'
-行内公式用`$$行内公式$$`,这是 kramdown 的公式形式，Mathjax的行内公式是用 `\(...\)`,需要在Mathjax的配置中添加一段来把行内公式的标识改为 Texde `$...$`形式
+kramdown 支持公式，要在配置文件 _config.yml 中添加一句 `markdown:  kramdown`
+行内公式用`$$行内公式$$`,这是 kramdown 的公式形式，Mathjax 的行内公式是用 `\(...\)`,需要在 Mathjax 的配置中添加一段来把行内公式的标识改为 Texde `$...$`形式
 
-```
+~~~
 MathJax.Hub.Config({
   tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
     processEscapes: true
   }
 });
-```
+~~~
 
 行间公式要另起空行结束也要空行
 
@@ -120,7 +120,9 @@ $$
 		end
 		~~~
 
+或者用前后的空行来表示
 ~~~
+[空行]
 #include "trim_mean.h"
 #include <iostream>
 int main()
@@ -130,6 +132,7 @@ int main()
   std::cout <<"The mean of the interior of the x array is: "<<tm<<std::endl;
   return 0;
 }
+[空行]
 ~~~
 
 
