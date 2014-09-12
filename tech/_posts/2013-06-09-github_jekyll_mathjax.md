@@ -65,9 +65,18 @@ jekyll中文编码问题 'C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\j
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 kramdown支持公式，要在_config.yml中添加'markdown:  kramdown'
-行内公式用`$$行内公式$$`,
-行间公式要另起空行结束也要空行
+行内公式用`$$行内公式$$`,这是 kramdown 的公式形式，Mathjax的行内公式是用 `\(...\)`,需要在Mathjax的配置中添加一段来把行内公式的标识改为 Texde `$...$`形式
 
+```
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+```
+
+行间公式要另起空行结束也要空行
 
     $$
     行间式
@@ -103,15 +112,15 @@ $$
 		layout: post
 		title: "Github+jekyll+Mathjax搭建Blog"
 		---
-- 可以用三个以上的`~~~`来定义代码块~~开始与结束如~~
+- 可以用三个以上的`~~~`来定义代码块开始与结束如
 
-		```Ruby
+		~~~
 		def what?
 		  42
 		end
-		```
+		~~~
 
-``` C++
+~~~
 #include "trim_mean.h"
 #include <iostream>
 int main()
@@ -121,7 +130,7 @@ int main()
   std::cout <<"The mean of the interior of the x array is: "<<tm<<std::endl;
   return 0;
 }
-```
+~~~
 
 
 - 插入图片：在`_config.yml`中定义变量`img_url: http://leequangang.github.com/images` 然后在.md文档中插入
