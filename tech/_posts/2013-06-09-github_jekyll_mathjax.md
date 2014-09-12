@@ -112,7 +112,7 @@ $$
 		layout: post
 		title: "Github+jekyll+Mathjax搭建Blog"
 		---
-- 可以用三个以上的`~~~`来定义代码块开始与结束如
+- 可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
 
 		~~~
 		def what?
@@ -120,9 +120,9 @@ $$
 		end
 		~~~
 
-或者用前后的空行来表示
+代码高亮？还没搞定...
+
 ~~~
-[空行]
 #include "trim_mean.h"
 #include <iostream>
 int main()
@@ -132,7 +132,6 @@ int main()
   std::cout <<"The mean of the interior of the x array is: "<<tm<<std::endl;
   return 0;
 }
-[空行]
 ~~~
 
 
