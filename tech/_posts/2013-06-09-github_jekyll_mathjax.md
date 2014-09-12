@@ -103,15 +103,15 @@ $$
 		layout: post
 		title: "Github+jekyll+Mathjax搭建Blog"
 		---
-- 可以用三个以上的`~~~`来定义代码块开始与结束如
+- 可以用三个以上的`~~~`来定义代码块~~开始与结束如~~
 
-		~~~Ruby
+		```Ruby
 		def what?
 		  42
 		end
-		~~~
+		```
 
-~~~~ C++
+``` C++
 #include "trim_mean.h"
 #include <iostream>
 int main()
@@ -121,7 +121,7 @@ int main()
   std::cout <<"The mean of the interior of the x array is: "<<tm<<std::endl;
   return 0;
 }
-~~~~
+```
 
 
 - 插入图片：在`_config.yml`中定义变量`img_url: http://leequangang.github.com/images` 然后在.md文档中插入
