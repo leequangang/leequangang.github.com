@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Github+jekyll+Mathjax搭建Blog"
+title: "Github+jekyll+Mathjax 搭建 Blog"
 tags: [jekyll, github, markdown, mathjax]
 ---
 
 
-##Github+jekyll+Mathjax搭建Blog
+##Github+jekyll+Mathjax 搭建 Blog
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
