@@ -143,7 +143,7 @@ int main()
 		脚注[^id]
 		[^id]: 这是脚注
 
-- 在引用中`>`使用公式`$$公式$$`不显示，不知为何？
+- 在引用中`^`使用公式`$$公式$$`不显示，不知为何？
 - This is a [reference style link][linkid] to a page. 
 
 		This is a [reference style link][linkid] to a page.

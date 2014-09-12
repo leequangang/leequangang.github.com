@@ -63,14 +63,8 @@ blockquote span {
 	padding-right:20px;
 }
 
-code {
-    font-family: "Consolas",Tahoma,Helvetica,"Microsoft YaHei",Arial,monospace,"Lucida Sans Unicode";
-	background: #222222;
-	font-size:1em;
-	line-height: .8em;
-	}
 
-pre {
+pre > code {
 
 
  background-color: #333; 
@@ -88,7 +82,7 @@ font-family: "Consolas",Tahoma,Helvetica,Arial,monospace,"Lucida Sans Unicode";
 width: auto px;
 padding: 5px;
 font-size:1.1em;
-line-height: 1.5em;
+line-height: 1em;
 clear:both;
 
 /***overflow: auto; 这句是滚动条****/
