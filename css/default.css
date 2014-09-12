@@ -66,8 +66,8 @@ blockquote span {
 code {
     font-family: "Consolas",Tahoma,Helvetica,"Microsoft YaHei",Arial,monospace,"Lucida Sans Unicode";
 	background: #333;
-	font-size:1em;
-	line-height: .8em;
+	font-size:.9em;
+	line-height: 1em;
 	}
 
 pre {

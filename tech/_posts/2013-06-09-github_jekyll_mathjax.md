@@ -48,7 +48,7 @@ tags: [jekyll, github, markdown, mathjax]
 
 然后就可以在浏览器中输入`localhost:4000`来查看网站
 
-jekyll中文编码问题 'C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\jekyll\convertible.rb' 第31行
+jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\jekyll\convertible.rb` 第31行
 
     self.content = File.read(File.join(base, name))
 

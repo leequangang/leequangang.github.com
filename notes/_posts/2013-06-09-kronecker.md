@@ -37,6 +37,6 @@ Kronecker graphs:
 - 变种
 
 **Kronecker graph[[1]][1]:**
-:Kronecker graph of order $$k$$ is defined by the adjacency matrix $$K_1^k$$, where $$K_1$$ is the Kronecker initiator adjacency matrix.
+: Kronecker graph of order $$k$$ is defined by the adjacency matrix $$K_1^k$$, where $$K_1$$ is the Kronecker initiator adjacency matrix.
 
 [1]: http://scholar.google.com.hk/scholar?q=Kronecker+Graphs+An+Approach+to+Modeling+Networks&btnG=&hl=zh-CN&as_sdt=0%2C5&as_vis=1
