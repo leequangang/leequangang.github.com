@@ -119,26 +119,27 @@ $$
 
 [CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/)
 
-2. 然后在写代码时通过如下方式来调用高亮，而非上述 `~~~` 的方式
+2. 然后在写代码时通过如下方式来调用高亮
 
-~~~
-{% highlight c++ %}
-
-def what?
-    42
-end
-
-{% endhighlight %}
-~~~
-
-在 `{% highlight c++ %}` 中的 C++ 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight c++ linenos %}`
+    ~~~ruby
+    puts "Hello, world!"
+    ~~~
 
 
-```ruby
-puts "Hello, world!"
-```
+    {% highlight ruby %}
+    def what?
+        42
+    end
 
-{% highlight C++ linenos=table linenostep=5 %}
+    {% endhighlight %}
+
+
+在 `{% highlight ruby %}` 中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight ruby linenos %}`
+
+
+
+
+{% highlight c++ linenos=table linenostep=5 %}
 
 #include "trim_mean.h"
 #include <iostream>
@@ -155,7 +156,6 @@ int main()
 {% endhighlight %}
 
 
-----------
 {% highlight c++ linenos %}
 
 #include "trim_mean.h"
