@@ -102,13 +102,13 @@ $$
 
 可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
 
-~~~~~~
-~~~
-def what?
-    42
-end
-~~~
-~~~~~~
+
+    ~~~
+    def what?
+        42
+    end
+    ~~~
+
 
 
 ~~代码高亮？还没搞定...~~ 终于搞定了！
@@ -122,11 +122,11 @@ end
 2. 然后在写代码时通过如下方式来调用高亮，而非上述 `~~~` 的方式
 
 ~~~
-\{% highlight c++ %}
+{% highlight c++ %}
 
 	My Code...
 
-\{% endhighlight %}
+{% endhighlight %}
 ~~~
 
 在 `{% highlight c++ %}` 中的 C++ 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight c++ linenos %}`
@@ -185,7 +185,7 @@ int main()
 		- 这里是目录(编译后这句话会被忽略)
 		{:toc}
 
-- .md开头要有一段代码来引入格式 ( *列表中嵌套代码开头要用两个`\tab`，并且开头要有空行* )
+- .md 开头要有一段代码来引入格式 ( *列表中嵌套代码开头要用两个`\tab`，并且开头要有空行* )
 
 		---
 		layout: post
@@ -202,6 +202,7 @@ int main()
 		[^id]: 这是脚注
 
 - 在引用中`^`使用公式`$$公式$$`不显示，不知为何？
+
 - This is a [reference style link][linkid] to a page. 
 
 		This is a [reference style link][linkid] to a page.
