@@ -111,7 +111,7 @@ $$
 
 
 
-~~代码高亮？还没搞定...~~ 终于搞定了！
+代码高亮, 终于搞定了！
 
 1. 代码高亮用到 pygments，首先在 _config.yml 文件中添加 `highlighter: pygments`,然后下载一个 css 文件并在 _layouts 中的模版文件`default.html`中引用。
 
@@ -119,11 +119,28 @@ $$
 
 [CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/)
 
-2. 然后在写代码时通过如下方式来调用高亮
+2. 然后在写代码时通过如下方式来调用高亮  
 
-    ~~~ruby
-    puts "Hello, world!"
-    ~~~
+
+在 `{% highlight ruby %}` 中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight ruby linenos %}`
+
+
+
+{% highlight c++ linenos=table linenostep=5 %}
+
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+
+{% endhighlight %}
 
 
 
