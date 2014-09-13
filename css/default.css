@@ -1,5 +1,5 @@
 body {
-background: #373737;
+background: #444;
 color:#e5e5e5;
 font:90% Tahoma,Arial,"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS","Lucida Sans Unicode",sans-serif;
 
@@ -50,7 +50,7 @@ div#post ul li { list-style: square; }
 
 blockquote {
 border-left:10px solid #0383c9;
-background: #282828;
+background: #333;
 font-size:1.0em;
 margin:20px 10px;
 padding:8px;
@@ -74,7 +74,7 @@ blockquote span {
 
 code {
     font-family: "Consolas",Tahoma,Helvetica,"Microsoft YaHei",Arial,monospace,"Lucida Sans Unicode";
-	background: #282828;
+	background: #333;
 	font-size:.9em;
 	line-height: 1em;
 	}
@@ -82,7 +82,7 @@ code {
 pre {
 
 
- background-color: #282828; 
+ background-color: #333; 
  color: #fff; 
  -webkit-border-radius: 5px; 
  -moz-border-radius: 5px; 
