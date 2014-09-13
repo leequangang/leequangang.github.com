@@ -126,7 +126,7 @@ $$
 
 
 
-{% highlight c++ linenos=table linenostep=5 %}
+{% highlight c++ linenos %}
 
 #include "trim_mean.h"
 #include <iostream>
