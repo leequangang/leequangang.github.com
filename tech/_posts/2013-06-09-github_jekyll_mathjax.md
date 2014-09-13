@@ -114,17 +114,16 @@ $$
 		---
 - 可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
 
-		~~~
-		{% highlight ruby %}
-		def what?
-		  42
-		end
-		{% endhighlight %}
-		~~~
+{% highlight ruby %}
+def what?
+    42
+end
+{% endhighlight %}
+
 
 代码高亮？还没搞定...
+ 
 
-~~~
 {% highlight c++ linenos %}
 #include "trim_mean.h"
 #include <iostream>
@@ -136,7 +135,7 @@ int main()
   return 0;
 }
 {% endhighlight %}
-~~~
+
 
 
 - 插入图片：在`_config.yml`中定义变量`img_url: http://leequangang.github.com/images` 然后在.md文档中插入
