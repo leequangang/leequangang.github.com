@@ -115,14 +115,17 @@ $$
 - 可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
 
 		~~~
+		{% highlight ruby %}
 		def what?
 		  42
 		end
+		{% endhighlight %}
 		~~~
 
 代码高亮？还没搞定...
 
 ~~~
+{% highlight c++ linenos %}
 #include "trim_mean.h"
 #include <iostream>
 int main()
@@ -132,6 +135,7 @@ int main()
   std::cout <<"The mean of the interior of the x array is: "<<tm<<std::endl;
   return 0;
 }
+{% endhighlight %}
 ~~~
 
 
