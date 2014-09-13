@@ -124,18 +124,14 @@ $$
 ~~~
 {% highlight c++ %}
 
-	My Code...
+def what?
+    42
+end
 
 {% endhighlight %}
 ~~~
 
 在 `{% highlight c++ %}` 中的 C++ 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight c++ linenos %}`
-
-{% highlight ruby %}
-def what?
-    42
-end
-{% endhighlight %}
 
 
 ```ruby
@@ -143,6 +139,7 @@ puts "Hello, world!"
 ```
 
 {% highlight C++ linenos=table linenostep=5 %}
+
 #include "trim_mean.h"
 #include <iostream>
 using namespace std;
@@ -154,6 +151,7 @@ int main()
   cout <<"The mean of the interior of the x array is: "<<tm<<endl;
   return 0;
 }
+
 {% endhighlight %}
 
 
