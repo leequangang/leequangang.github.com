@@ -142,7 +142,7 @@ end
 puts "Hello, world!"
 ```
 
-{% highlight ruby linenos=table lineanchors %}
+{% highlight C++ linenos=table linenostep=5 %}
 #include "trim_mean.h"
 #include <iostream>
 using namespace std;
