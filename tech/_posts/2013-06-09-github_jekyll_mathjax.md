@@ -117,22 +117,6 @@ $$
 - 然后在写代码时通过如下方式来调用高亮. 在 `{% highlight ruby %}` 中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight ruby linenos %}`
 
 
-{% highlight c++ linenos %}
-
- #include "trim_mean.h"
- #include <iostream>
- using namespace std;
- //注释
- int main()
-{
-  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
-  double tm = trimmean<int>(8, x, 0.5);
-  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
-  return 0;
-}
-
-{% endhighlight %}
-
 
 
 ###注意 
