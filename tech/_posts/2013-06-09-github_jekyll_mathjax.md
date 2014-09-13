@@ -57,9 +57,11 @@ jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\j
     self.content = File.read(File.join(base, name), :encoding => "utf-8")
 
 ####3.Github for win上传
+
 上传到Github
 
 ####4.mathjax的兼容问题
+
 在_layouts/default.html中`<head>`标签添加
 
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -96,6 +98,83 @@ $$
 ####5.添加Disqus评论模块
 国外第三方评论系统
 
+####6.代码
+
+可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
+
+~~~~~~
+~~~
+def what?
+    42
+end
+~~~
+~~~~~~
+
+
+~~代码高亮？还没搞定...~~ 终于搞定了！
+
+1. 代码高亮用到 pygments，首先在 _config.yml 文件中添加 `highlighter: pygments`,然后下载一个 css 文件并在 _layouts 中的模版文件`default.html`中引用。
+
+`<link rel="stylesheet" type="text/css" href="/css/pygments.css" />`. 
+
+[CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/)
+
+2. 然后在写代码时通过如下方式来调用高亮，而非上述 `~~~` 的方式
+
+~~~
+\{% highlight c++ %}
+
+	My Code...
+
+\{% endhighlight %}
+~~~
+
+在 `{% highlight c++ %}` 中的 C++ 表示语言类型，如果想添加行号可以添加一个参数，如 `{% highlight c++ linenos %}`
+
+{% highlight ruby %}
+def what?
+    42
+end
+{% endhighlight %}
+
+
+```ruby
+puts "Hello, world!"
+```
+
+{% highlight ruby linenos=table lineanchors %}
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+{% endhighlight %}
+
+
+----------
+{% highlight c++ linenos %}
+
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+
+{% endhighlight %}
+
+
 ###注意 
 
 - .md文件名不能是中文 否则会出错
@@ -112,33 +191,6 @@ $$
 		layout: post
 		title: "Github+jekyll+Mathjax搭建Blog"
 		---
-- 可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
-
-{% highlight ruby %}
-def what?
-    42
-end
-{% endhighlight %}
-
-
-代码高亮？还没搞定...
- 
-
-{% highlight c++ linenos %}
-#include "trim_mean.h"
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
-  double tm = trimmean<int>(8, x, 0.5);
-  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
-  return 0;
-}
-{% endhighlight %}
-
 
 
 - 插入图片：在`_config.yml`中定义变量`img_url: http://leequangang.github.com/images` 然后在.md文档中插入
