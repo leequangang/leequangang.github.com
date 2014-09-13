@@ -32,6 +32,10 @@ http://en.wikipedia.org/wiki/List_of_NP-complete_problems
 
 [图解](http://www.matrix67.com/blog/archives/5495)
 
+###约瑟夫问题(Josephus)
+
+> N个人围成一圈，从第一个开始报数，第M个将被杀掉，报数进行下去，最后剩下一个，其余人都将被杀掉。例如N=6，M=5，被杀掉的人的序号为5，4，6，2，3 最后剩下1号。 <5,4,6,2,3,1>又被称为(n, m)-约瑟夫排列。
+
 ###参考
 
 [1] [经典排序算法][r1]
