@@ -1,7 +1,10 @@
 
-tr.alt td 
+
+.td, .th 
   {
-  color:#000000;
+  font-size:1em;
+
+  padding:3px 7px 2px 7px;
   }
 
 /*.highlight  { background: #333333; color: #ffffff}*/
