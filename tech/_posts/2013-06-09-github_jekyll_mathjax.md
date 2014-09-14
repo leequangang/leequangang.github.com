@@ -114,14 +114,14 @@ $$
 
     <link rel="stylesheet" type="text/css" href="/css/pygments.css" />
 
-- 然后在写代码时通过如下方式来调用高亮. 在   中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如  
+- 然后在写代码时通过如下方式来调用高亮. 在   中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如 
 
 这段文字测试GFM是否开启
 我换行了
 ~~ttt~~
 
 
-{% highlight c++ linenos=table linenostep = 5 %}
+{% highlight c++ linenos=table linenostep=5 %}
 
 #include "trim_mean.h"
 #include <iostream>
