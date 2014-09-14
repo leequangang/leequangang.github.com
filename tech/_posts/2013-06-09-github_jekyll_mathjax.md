@@ -178,6 +178,61 @@ int main()
   cout <<"The mean of the interior of the x array is: "<<tm<<endl;
   return 0;
 }
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
+#include "trim_mean.h"
+#include <iostream>
+using namespace std;
+//注释
+int main()
+{
+  int x[8]={1, 2, 3, 4, 5, 6, 7, 8};
+  double tm = trimmean<int>(8, x, 0.5);
+  cout <<"The mean of the interior of the x array is: "<<tm<<endl;
+  return 0;
+}
 
 {% endhighlight %}
 
