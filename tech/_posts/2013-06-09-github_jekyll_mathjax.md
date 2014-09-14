@@ -109,7 +109,8 @@ $$
 
 **代码高亮, 终于搞定了！**
 
-- 代码高亮用到 pygments，首先在 _config.yml 文件中添加 `highlighter: pygments`,然后下载一个 css 文件并在 _layouts 中的模版文件`default.html`中引用. [CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/) [我所有的CSS来源](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
+- 代码高亮用到 pygments，首先在 _config.yml 文件中添加 `highlighter: pygments`,然后下载一个 css 文件并在 _layouts 中的模版文件`default.html`中引用. [CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/) 
+[我用的CSS来源](https://github.com/mojombo/tpw/blob/master/css/syntax.css)
 
     <link rel="stylesheet" type="text/css" href="/css/pygments.css" />
 
