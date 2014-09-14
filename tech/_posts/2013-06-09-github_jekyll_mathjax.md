@@ -118,6 +118,7 @@ $$
 
 这段文字测试GFM是否开启
 我换行了
+~~ttt~~
 
 
 {% highlight c++ linenos=table linenostep = 5 %}
