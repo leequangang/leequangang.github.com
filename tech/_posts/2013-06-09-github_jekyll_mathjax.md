@@ -118,7 +118,7 @@ $$
 
 ~~~~
 \{\% highlight c++ linenos=table \%\}
-	Mycode... 
+	Mycode... (把\去掉)
 \{\% endhighlight \%\}
 ~~~~
 
