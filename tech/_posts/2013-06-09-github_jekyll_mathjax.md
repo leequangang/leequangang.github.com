@@ -116,20 +116,11 @@ $$
 
 - 然后在写代码时通过如下方式来调用高亮. 在   中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如  
 
-
-~~~ruby
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-~~~
+这段文字测试GFM是否开启
+我换行了
 
 
-
-{% highlight c++ linenos=table linenostep=5 %}
+{% highlight c++ linenos=table linenostep = 5 %}
 
 #include "trim_mean.h"
 #include <iostream>
