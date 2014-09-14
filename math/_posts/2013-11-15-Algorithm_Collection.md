@@ -12,14 +12,16 @@ published: ture
 {:toc}
 
 ###NP问题列表
-http://en.wikipedia.org/wiki/List_of_NP-complete_problems
+
+[NP问题列表](http://en.wikipedia.org/wiki/List_of_NP-complete_problems)
 
 ###12球问题
 先看下维基大典里描述的[十二球问题](http://zh-classical.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E7%90%83%E5%95%8F%E9%A1%8C)  
 
 好了，我们正经点~~~  
 
-> 有12个球,其中一个轻重未知，其他等重，用无刻度的天平称量三次，如何得知哪个球异常？重or轻？
+> 12球问题:
+: 有12个球,其中一个轻重未知，其他等重，用无刻度的天平称量三次，如何得知哪个球异常？重or轻？
 
 [一个较好的解](http://blog.renren.com/blog/240398193/753257500)
 

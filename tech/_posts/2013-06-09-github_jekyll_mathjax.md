@@ -110,12 +110,17 @@ $$
 
 **代码高亮, 终于搞定了！**
 
-- 代码高亮用到 pygments，首先在 _config.yml 文件中添加 `highlighter: pygments`,然后下载一个 css 文件并在 _layouts 中的模版文件`default.html`中引用. [CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/)
+- 代码高亮用到 pygments，首先在 _config.yml 文件中添加 `highlighter: pygments`,然后下载一个 css 文件并在 _layouts 中的模版文件`default.html`中引用. [CSS文件下载](https://github.com/richleland/pygments-css)  [效果Demo](http://pygments.org/demo/657928/) [我所有的CSS来源](https://github.com/mojombo/tpw/blob/master/css/screen.css)
 
     <link rel="stylesheet" type="text/css" href="/css/pygments.css" />
 
-- 然后在写代码时通过如下方式来调用高亮. 在   中的 ruby 表示语言类型，如果想添加行号可以添加一个参数，如 
+- 然后在写代码时通过如下方式来调用高亮， 其中的 c++ 表示语言类型，如果想添加行号可以添加一个参数 linenos ,但此时复制网页时行号跟代码是一起的，可以添加 linenos=table 让二者分离，这样复制时就只是复制代码了。另外 pygments 使用说明中还有 linenostep 设置行号的步长，但是实验失败. 
 
+    {% highlight c++ linenos linenostep=5 %}
+
+      Mycode...
+
+    {% endhighlight %}
 
 {% highlight c++ linenos linenostep=5 %}
 
