@@ -206,7 +206,7 @@ int main()
 
 - [Markdown的一些常用语法[6]](http://hawstein.com/posts/markdown-syntax.html)
 
-
+201111060101@std.uestc.edu.cn
 ###参考
 [0] [google][f0]
 
@@ -223,6 +223,8 @@ int main()
 [5] [kramdown Syntax](http://kramdown.rubyforge.org/syntax.html)
 
 [6] [Markdown的常用语法](http://hawstein.com/posts/markdown-syntax.html)
+
+[7] [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
 
 [linkid]: http://www.google.com/ "可选提示文本"
 [^id]: 这是脚注
