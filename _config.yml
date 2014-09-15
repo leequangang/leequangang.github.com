@@ -32,6 +32,7 @@ gems:      []
 markdown: kramdown
 
 highlighter: Pygments
+Pygments: ture
 
 lsi:         false
 excerpt_separator: "\n\n"
