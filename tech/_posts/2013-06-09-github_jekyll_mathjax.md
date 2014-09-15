@@ -32,7 +32,7 @@ Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll �
 
 libiconv-2.dll 这个文件在 MinGW 中存在，同时在 Github for windows里面也有，导致各种错误，最后是把这两个都卸掉，然后重新安装 Ruby 跟 Ruby DevKit，此时 gem install jekyll 成功了。但是。。。
 
-在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以[参阅此处]( http://www.tuicool.com/articles/qu2AreM) ，此文中提到 {{"{%"}} 或 {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 双括号引起来 {{ "{{" {% " }} "}} .
+在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以[参阅此处]( http://www.tuicool.com/articles/qu2AreM) ，此文中提到 {{"{%"}} 或 {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 双括号引起来 {{ "{ {“ {% ” } } "}} .
 
 
 这有一个windows下[jekyll的 Portable 版]( https://github.com/madhur/PortableJekyll) 不过没有试过，有兴趣的可以看看。
