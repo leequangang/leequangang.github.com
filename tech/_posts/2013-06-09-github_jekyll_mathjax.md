@@ -32,7 +32,7 @@ Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll �
 
 libiconv-2.dll 这个文件在 MinGW中存在，同时在 Github for windows里面也有，导致各种错误，最后是把这两个都卸掉，然后重新安装 Ruby 跟 Ruby DevKit，此时 gem install jekyll 成功了。但是。。。
 
-在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以参阅 http://www.tuicool.com/articles/qu2AreM ，此文中提到 {{"{%"}} 或 {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 双{} 引起来 {{"{{"}} {{"{%"}} {{ "}}"}} .
+在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以参阅 http://www.tuicool.com/articles/qu2AreM ，此文中提到 {{"{%"}} 或 {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 双{} 引起来 {{ "{{" }} {{ "{%" }} {{ "}}" }} .
 
 
 这有一个windows下jekyll的 Portable 版 https://github.com/madhur/PortableJekyll 不过没有试过，有兴趣的可以看看。
@@ -139,9 +139,9 @@ $$
 - 然后在写代码时通过如下方式来调用高亮， 其中的 c++ 表示语言类型，如果想添加行号可以添加一个参数 linenos ，但此时复制网页时行号跟代码是一起的，可以添加 linenos=table 让二者分离，这样复制时就只是复制代码了。另外 pygments 使用说明中还有 linenostep 设置行号的步长，但是实验失败. 
 
 ~~~~
-{{"{%"}} highlight c++ linenos=table {{"%}"}}
+{{ "{%" }} highlight c++ linenos=table {{ "%}" }}
 	My Code... 
-{{"{%"}} endhighlight {{"%}"}}
+{{ "{%" }} endhighlight {{ "%}" }}
 ~~~~
 
 {% highlight c++ linenos=table linenostep="5" %}
