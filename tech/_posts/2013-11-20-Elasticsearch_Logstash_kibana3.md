@@ -81,7 +81,7 @@ curl -XPOST 'http://IP:9200/test' -d @lane.json
 
 ElasticSearch expects a JSON _object_, not an array 每个文件一条记录，要是一个文件有多条记录就要用到[bulk API](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-bulk.html)。其中Json文件中每条记录要用`\n`换行分隔
 
-~~~~
+~~~
 curl -s -XPOST localhost:9200/_bulk --data-binary @test.json
 
 {"index" : {"_index" : "country", "_type" : "city"}}
@@ -90,7 +90,7 @@ curl -s -XPOST localhost:9200/_bulk --data-binary @test.json
 {"nation" : "USA", "city" : "Califorlia", "year" : ["2012", "2014", "2015"]}
 {"index" : {"_index" : "country", "_type" : "city"}}
 {"nation" : "China", "city" : "Beijing", "year" : ["2012", "2014", "2015"]}
-~~~~
+~~~
 
 `-s /--silent        Silent mode. Don't output anything不输出信息`
 
@@ -153,6 +153,7 @@ mapping "enabled" : false禁用内容解析
 [mapping中字段格式](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/mapping-core-types.html)
 string, integer/long, float/double, boolean, and null, byte, short, binary
 如果是数值则在Json文件中可不加“”
+
 ~~~~
 {
     "tweet" : {
