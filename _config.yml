@@ -1,68 +1,36 @@
-
-# Where things are
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
-data_source: ./_data
-collections: null
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-textile_ext:  "textile"
 
-# Filtering Content
+future:      true
 show_drafts: nil
 limit_posts: 0
-future:      true
-unpublished: false
+pygments:    true
 
-
-# Plugins
-whitelist: []
-gems:      []
-
-# Conversion
-
-markdown: kramdown
-
-
-highlighter: pygments
-
-
-lsi:         false
-excerpt_separator: "\n\n"
-
-
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: /
-
-
-# Backwards-compatibility
 relative_permalinks: true
 
-# Outputting
 permalink:     date
-paginate_path: /page:num
-timezone:      null
+paginate_path: 'page:num'
 
-quiet:    false
-defaults: []
-
-# Markdown Processors
+markdown:      kramdown
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
 
 kramdown:
   input: GFM
 
 
-url:     http://leequangang.github.com
+highlighter: pygments
+excerpt_separator: "\n\n"
+
+safe:        false
+watch:       false    # deprecated
+server:      false    # deprecated
+port:        4000
+baseurl:     /
+url:         http://leequangang.github.com
+lsi:         false
 
 img_url: http://leequangang.github.com/images
