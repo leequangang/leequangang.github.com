@@ -11,7 +11,7 @@ published: ture
 {:toc}
 
 ###node-webkit
-node-webkit是基于node.js和chromium的应用程序实时运行环境，可采用前端技术（HTML，CSS，JavaScript）开发桌面应用软件的跨平台解决方案，见[Github页面](https://github.com/rogerwang/node-webkit)。就是说可以用html+css编写应用界面，用javascript做些执行处理并结合node.js的本地化操作，最终打包成为一个本地的应用。（其实就是编写一个web应用在一个本地版的chromium浏览器上运行）
+node-webkit是基于node.js和chromium的应用程序实时运行环境，可采用前端技术（HTML，CSS，JavaScript）开发桌面应用软件的跨平台解决方案，见[Github页面](https://github.com/rogerwang/node-webkit)。 就是说可以用html+css编写应用界面，用javascript做些执行处理并结合node.js的本地化操作，最终打包成为一个本地的应用。（其实就是编写一个web应用在一个本地版的chromium浏览器上运行）
 
 官方提供的[一些成品](https://github.com/rogerwang/node-webkit/wiki/List-of-apps-and-companies-using-node-webkit)，其中Haroopad就是一个markdown的写作工具，跟markdownpad2一样
 
