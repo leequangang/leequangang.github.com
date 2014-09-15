@@ -23,7 +23,7 @@ kramdown:
 
 
 highlighter: pygments
-excerpt_separator: "\n\n"
+excerpt_separator: "\n"
 
 safe:        false
 watch:       false    # deprecated
