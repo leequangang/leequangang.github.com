@@ -64,7 +64,7 @@ kramdown:
 
 本地测试(jekyll新版本的命令有更新)
 
-   jekyll serve
+    jekyll serve
 
 然后就可以在浏览器中输入`localhost:4000`来查看网站
 
