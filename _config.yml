@@ -31,8 +31,8 @@ gems:      []
 
 markdown: kramdown
 
-Pygments: ture
-highlighter: Pygments
+pygments: ture
+highlighter: pygments
 
 
 lsi:         false
