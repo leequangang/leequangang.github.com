@@ -21,21 +21,21 @@ tags: [jekyll, github, markdown, mathjax]
 建好后去setting自动生成主页；网上找一个模版clone到本地然后做一下修改（说的简单，做起来也不这么轻松了）...
 多说一句Github的自建项目主页模版很漂亮！
 
-[一堆网站模版](https://github.com/mojombo/jekyll/wiki/Sites)(我用的是第5个überduper感觉既简洁有有色彩)
+[一堆网站模版](https://github.com/mojombo/jekyll/wiki/Sites) (我用的是第5个überduper感觉既简洁有有色彩)
 
 ####2.win7下安装本地jekyll环境(2014-9-15 更新)
 
 新版的Jekyll有很多变化，还是不建议在 windows 下安装了，如果你愿意折腾的话可以看看这个
 [windows安装Jekyll教程](http://jekyll-windows.juthilo.com/)
 
-Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll 时出现各种报错，可以参照一下这个页面 https://github.com/oneclick/rubyinstaller/wiki/Troubleshooting#gems_fails_vista 。
+Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll 时出现各种报错，可以参照一下[这个页面] (https://github.com/oneclick/rubyinstaller/wiki/Troubleshooting#gems_fails_vista) 。
 
-libiconv-2.dll 这个文件在 MinGW中存在，同时在 Github for windows里面也有，导致各种错误，最后是把这两个都卸掉，然后重新安装 Ruby 跟 Ruby DevKit，此时 gem install jekyll 成功了。但是。。。
+libiconv-2.dll 这个文件在 MinGW 中存在，同时在 Github for windows里面也有，导致各种错误，最后是把这两个都卸掉，然后重新安装 Ruby 跟 Ruby DevKit，此时 gem install jekyll 成功了。但是。。。
 
-在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以参阅 http://www.tuicool.com/articles/qu2AreM ，此文中提到 {{"{%"}} 或 {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 双括号引起来 {{ "{{" }} {{ " "{% " }} {{ "}}" "}} .
+在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以[参阅此处]( http://www.tuicool.com/articles/qu2AreM) ，此文中提到 {{"{%"}} 或 {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 双括号引起来 {{ "{{" }} {{ " "{% " }} {{ "}}" "}} .
 
 
-这有一个windows下jekyll的 Portable 版 https://github.com/madhur/PortableJekyll 不过没有试过，有兴趣的可以看看。
+这有一个windows下[jekyll的 Portable 版]( https://github.com/madhur/PortableJekyll) 不过没有试过，有兴趣的可以看看。
 
 
 
@@ -55,28 +55,26 @@ kramdown:
     D:\devkit>ruby dk.rb init
     D:\devkit>ruby dk.rb install
 
-~~删除默认的下载源，改成淘宝的镜像~~
+删除默认的下载源，改成淘宝的镜像
 
 安装jekyll、kramdown
 
     gem install jekyll
-   ~~ gem install kramdown ~~
+    gem install kramdown
 
 本地测试(jekyll新版本的命令有更新)
 
-   ~~ jekyll serve ~~
-
-    jekyll serve --drafts --watch
+   jekyll serve
 
 然后就可以在浏览器中输入`localhost:4000`来查看网站
 
-~~jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\jekyll\convertible.rb` 第31行~~
+jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\jekyll\convertible.rb` 第31行
 
-   ~~ self.content = File.read(File.join(base, name)) ~~
+      self.content = File.read(File.join(base, name))
 
-~~替换为~~
+替换为
 
-    ~~self.content = File.read(File.join(base, name), :encoding => "utf-8")~~
+     self.content = File.read(File.join(base, name), :encoding => "utf-8")
 
 ####3.Github for win上传
 
@@ -139,11 +137,11 @@ $$
 - 然后在写代码时通过如下方式来调用高亮， 其中的 c++ 表示语言类型，如果想添加行号可以添加一个参数 linenos ，但此时复制网页时行号跟代码是一起的，可以添加 linenos=table 让二者分离，这样复制时就只是复制代码了。另外 pygments 使用说明中还有 linenostep 设置行号的步长，但是实验失败. 
 
 
-    \{% highlight c++ linenos=table %\}
+    \{\% highlight c++ linenos=table \%\}
 
          My Code... (把\去掉)
 
-    \{% endhighlight %\}
+    \{\% endhighlight \%\}
 
 
 {% highlight c++ linenos=table linenostep="5" %}
