@@ -1,36 +1,84 @@
+
+# Where things are
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
+data_source: ./_data
+collections: null
 
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
 
-future:      true
-show_drafts: nil
+# Filtering Content
+show_drafts: null
 limit_posts: 0
-pygments:    true
-
-relative_permalinks: true
-
-permalink:     date
-paginate_path: 'page:num'
-
-markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
-
-kramdown:
-  input: GFM
+future:      true
+unpublished: false
 
 
-highlighter: pygments
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+
+markdown: kramdown
+
+highlighter: false
+
+lsi:         false
 excerpt_separator: "\n\n"
 
-safe:        false
-watch:       false    # deprecated
-server:      false    # deprecated
-port:        4000
-baseurl:     /
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: /
+
+
+# Backwards-compatibility
+relative_permalinks: true
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+quiet:    false
+defaults: []
+
+
+# Markdown Processors
+
+kramdown:
+  auto_ids:      true
+  footnote_nr:   1
+  entity_output: as_char
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  use_coderay:   ture
+  input: GFM
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
+
+
+
+
+
 url:         http://leequangang.github.com
-lsi:         false
 
 img_url: http://leequangang.github.com/images

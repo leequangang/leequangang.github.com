@@ -23,38 +23,60 @@ tags: [jekyll, github, markdown, mathjax]
 
 [一堆网站模版](https://github.com/mojombo/jekyll/wiki/Sites)(我用的是第5个überduper感觉既简洁有有色彩)
 
-####2.win7下安装本地jekyll环境
-- 安装Ruby：[rubyinstaller-1.9.2](http://rubyinstaller.org/downloads/)
-- 安装Ruby [DevKit](http://cloud.github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe)：解压到本地，如D:
+####2.win7下安装本地jekyll环境(2014-9-15 更新)
+
+新版的Jekyll有很多变化，还是不建议在 windows 下安装了，如果你愿意折腾的话可以看看这个
+[windows安装Jekyll教程](http://jekyll-windows.juthilo.com/)
+
+Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll 时出现各种报错，可以参照一下这个页面 https://github.com/oneclick/rubyinstaller/wiki/Troubleshooting#gems_fails_vista 。
+
+libiconv-2.dll 这个文件在 MinGW中存在，同时在 Github for windows里面也有，导致各种错误，最后是把这两个都卸掉，然后重新安装 Ruby 跟 Ruby DevKit，此时 gem install jekyll 成功了。但是。。。
+
+在运行时候 jekyll serve 时候又是各种问题不断，比如使用 Pygments 代码高亮无法编译，要把代码高亮设为关闭 highlighter: false ；另外很多效果没有编译出来，比如开头的目录列表以及每各章节的标题，不知道为啥了，有些问题可以参阅 http://www.tuicool.com/articles/qu2AreM ，此文中提到 {{"{%"}} or {{ "{{" }} 这类符号是 Jekyll 所采用的 Liquid 模版语言，想要在文章中输出就得用 {{" {{"{%"}} or {{ "{{" }} "}} .
+
+
+这有一个windows下jekyll的 Portable 版 https://github.com/madhur/PortableJekyll 不过没有试过，有兴趣的可以看看。
+
+
+
+后面这段内容是过时的，不过 kramdown 编译器怎么不支持 "~~删除线~~"功能呢，即使在 _config.yml 添加了下段代码也不行.
+
+~~~
+kramdown:
+  input: GFM
+~~~
+
+
+- 安装 Ruby
+- 安装 Ruby DevKit 解压到本地，如D:
 
 进入cmd，执行
 
     D:\devkit>ruby dk.rb init
     D:\devkit>ruby dk.rb install
 
-删除默认的下载源，改成淘宝的镜像
-
-    D:\devkit>gem sources --remove https://rubygems.org/
-    D:\devkit>gem sources -a http://ruby.taobao.org/
+~~删除默认的下载源，改成淘宝的镜像~~
 
 安装jekyll、kramdown
 
     gem install jekyll
-    gem install kramdown
+   ~~ gem install kramdown ~~
 
 本地测试(jekyll新版本的命令有更新)
 
-    jekyll serve
+   ~~ jekyll serve ~~
+
+    jekyll serve --drafts --watch
 
 然后就可以在浏览器中输入`localhost:4000`来查看网站
 
-jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\jekyll\convertible.rb` 第31行
+~~jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\jekyll\convertible.rb` 第31行~~
 
-    self.content = File.read(File.join(base, name))
+   ~~ self.content = File.read(File.join(base, name)) ~~
 
-替换为
+~~替换为~~
 
-    self.content = File.read(File.join(base, name), :encoding => "utf-8")
+    ~~self.content = File.read(File.join(base, name), :encoding => "utf-8")~~
 
 ####3.Github for win上传
 
