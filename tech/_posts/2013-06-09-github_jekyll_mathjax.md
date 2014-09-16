@@ -39,13 +39,22 @@ libiconv-2.dll 这个文件在 MinGW 中存在，同时在 Github for windows里
 
 markdown 不同解释器实现起来标准也不太一样，还是尽量避免用到不同的功能吧，最近 Github 把 markdown 的解释器改为 kramdown 了, 语法见 <http://kramdown.rubyforge.org/syntax.html> 。
 
-后面这段内容是过时的，不过 kramdown 编译器怎么不支持 "~~删除线~~"功能呢，即使在 _config.yml 添加了下段代码也不行.
+，不过在 _config.yml 添加了下段代码后 kramdown 编译器还是不支持 ~~删除线~~功能，换行不用打两个空格是可以的.
 
 ~~~
 kramdown:
   input: GFM
 ~~~
 
+测试
+
+- [ ] a bigger project
+  - [X] first subtask #1234
+  - [X] follow up subtask #4321
+  - [ ] final subtask cc @mention
+- [ ] a separate task
+
+**后面这节内容是过时的**
 
 - 安装 Ruby
 - 安装 Ruby DevKit 解压到本地，如D:
