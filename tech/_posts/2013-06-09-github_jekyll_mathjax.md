@@ -10,7 +10,7 @@ tags: [jekyll, github, markdown, mathjax]
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
-前记：最近用wordpress搭建了个Blog想写点笔记之类的东西（原因是看到那些大牛们的个人博客都太好了，想学习一下^_^）,于是申请了个空间玩了几天wordpress，挑模版，找公式插件（感谢[Mathjax](http://mathjax.com)）,等折腾完了要动手写的时候突然想到数据库+不稳定的空间+繁杂的公式要是哪天没备份不就掉坑里了- -!所以博客也迟迟没有添加内容...
+前记：最近用wordpress搭建了个Blog想写点笔记之类的东西（原因是看到那些大牛们的个人博客都太好了，想学习一下^_^）,于是申请了个空间玩了几天wordpress，挑模版，找公式插件（感谢[Mathjax](http://mathjax.com)）, 等折腾完了要动手写的时候突然想到数据库+不稳定的空间+繁杂的公式要是哪天没备份不就掉坑里了- -!所以博客也迟迟没有添加内容...
 
 
 直到有一天上午看到了Markdown，然后是jekyll (虽说至今都没明白这是个啥，只知道他用ruby写的，可以建静态bolg)，然后是Github，接下来就是整整2天的折腾了。第一天Github,第二天jekyll+Github，也遇到了很多坑，在此记一下备用。
@@ -21,7 +21,7 @@ tags: [jekyll, github, markdown, mathjax]
 建好后去setting自动生成主页；网上找一个模版clone到本地然后做一下修改（说的简单，做起来也不这么轻松了）...
 多说一句Github的自建项目主页模版很漂亮！
 
-[一堆网站模版](https://github.com/mojombo/jekyll/wiki/Sites) (我用的是第5个überduper感觉既简洁有有色彩)
+[一堆网站模版](https://github.com/mojombo/jekyll/wiki/Sites) (我用的是第5个überduper感觉既简洁又有色彩)
 
 ####2.win7下安装本地jekyll环境(2014-9-15 更新)
 

@@ -64,8 +64,9 @@ kramdown:
   entity_output: as_char
   toc_levels:    1..6
   smart_quotes:  lsquo,rsquo,ldquo,rdquo
-  input:GFM
 
+kramdown:
+  input: GFM
 
 
 
