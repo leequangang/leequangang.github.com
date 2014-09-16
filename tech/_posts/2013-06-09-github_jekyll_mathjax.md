@@ -241,5 +241,7 @@ int main()
 
 [7] [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
 
+[8] [轻量级标记语言](http://www.worldhello.net/gotgithub/appendix/markups.html)
+
 [linkid]: http://www.google.com/ "可选提示文本"
 [^id]: 这是脚注
