@@ -37,7 +37,7 @@ libiconv-2.dll 这个文件在 MinGW 中存在，同时在 Github for windows里
 
 这有一个windows下[jekyll的 Portable 版]( https://github.com/madhur/PortableJekyll) 不过没有试过，有兴趣的可以看看。
 
-
+markdown 不同解释器实现起来标准也不太一样，还是尽量避免用到不同的功能吧，最近 Github 把 markdown 的解释器改为 kramdown 了, 语法见 <http://kramdown.rubyforge.org/syntax.html> 。
 
 后面这段内容是过时的，不过 kramdown 编译器怎么不支持 "~~删除线~~"功能呢，即使在 _config.yml 添加了下段代码也不行.
 
