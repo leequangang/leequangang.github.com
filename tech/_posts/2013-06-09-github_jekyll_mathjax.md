@@ -196,7 +196,7 @@ int main()
 
 - 可以简单的只用网址来产生链接如，<http://google.com>
 
-		\<http://google.com \>
+		< http://google.com >
 
 - 参考文献的引用就可以通过双链接来实现[[0]][f0]
 
