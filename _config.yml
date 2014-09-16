@@ -23,10 +23,6 @@ future:      true
 unpublished: false
 
 
-# Plugins
-whitelist: []
-gems:      []
-
 # Conversion
 
 markdown: kramdown
@@ -34,13 +30,13 @@ markdown: kramdown
 highlighter: pygments 
 
 lsi:         false
-excerpt_separator: \n\n
+excerpt_separator: "\n\n"
+
 
 
 # Serving
 detach:  false
 port:    4000
-host:    localhost
 baseurl: /
 
 
@@ -64,6 +60,6 @@ kramdown:
 
 
 
-url:         http://leequangang.github.com
+url:     http://leequangang.github.io
 
-img_url: http://leequangang.github.com/images
+img_url: http://leequangang.github.io/images
