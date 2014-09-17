@@ -12,7 +12,7 @@ padding:0;
 label { margin-left:5px; }
 
 a {
-color:#0383c9;
+color:#65BBD9;
 font-weight:700;
 text-decoration:none;
 }
@@ -164,19 +164,19 @@ h1 a:hover { color:#fba919 ;}
 }
 
 
-.cyan { color: #00CDFF; }
+.cyan { color: #FF001B; }
 .pink { color: #f5a2c6; }
 .green { color: #23af4c; }
 .blue { color: #0383c9; }
 .orange { color: #fba919; }
-.brown { color: #E06C1F; }
+.brown { color: #FFF800; }
 
-a.cyan:hover { color:#212121; background-color:#00CDFF;text-decoration:none; }
+a.cyan:hover { color:#212121; background-color:#FF001B;text-decoration:none; }
 a.pink:hover { border: solid 2px #f5a2c6;padding:1px; text-decoration:none;  }
 a.green:hover { color:#212121; background-color:#23af4c;text-decoration:none; }
 a.orange:hover {color:#fba919; padding:1px; border: solid 2px #fba919; text-decoration:none; }
 a.blue:hover { color:#212121; background-color:#0383c9;text-decoration:none; }
-a.brown:hover { color:#E06C1F; padding:1px; border: solid 2px #E06C1F;text-decoration:none; }
+a.brown:hover { color:#FFF800; padding:1px; border: solid 2px #FFF800;text-decoration:none; }
 .slogan a { padding:3px; line-height: 2.5em; }
 
 .commentslink { margin-bottom: 35px;display:block;border-bottom:solid 1px #dadada;padding-bottom:25px; }
@@ -391,7 +391,7 @@ tr.alt td
 
 strong
  {
-  color:#E06C1F;
+  color:#fba919;
   }
 
 

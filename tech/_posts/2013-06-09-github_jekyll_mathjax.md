@@ -28,7 +28,7 @@ tags: [jekyll, github, markdown, mathjax]
 新版的Jekyll有很多变化，还是不建议在 windows 下安装了，如果你愿意折腾的话可以看看这个
 [windows安装Jekyll教程](http://jekyll-windows.juthilo.com/)
 
-Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll 时出现各种报错，可以参照一下[这个页面] (https://github.com/oneclick/rubyinstaller/wiki/Troubleshooting#gems_fails_vista) 。
+Ruby跟Ruby DevKit 安装倒是没有大问题，但是用 gem install jekyll 时出现各种报错，可以参照一下[这个页面](https://github.com/oneclick/rubyinstaller/wiki/Troubleshooting#gems_fails_vista) 。
 
 libiconv-2.dll 这个文件在 MinGW 中存在，同时在 Github for windows里面也有，导致各种错误，最后是把这两个都卸掉，然后重新安装 Ruby 跟 Ruby DevKit，此时 gem install jekyll 成功了。但是。。。
 
@@ -37,7 +37,7 @@ libiconv-2.dll 这个文件在 MinGW 中存在，同时在 Github for windows里
 
 这有一个windows下[jekyll的 Portable 版]( https://github.com/madhur/PortableJekyll) 不过没有试过，有兴趣的可以看看。
 
-markdown 不同解释器实现起来标准也不太一样，还是尽量避免用到不同的功能吧，最近 Github 把 markdown 的解释器改为 kramdown 了, 语法见 <http://kramdown.rubyforge.org/syntax.html> 。
+markdown 不同解释器实现起来标准也不太一样，还是尽量避免用到不同的功能吧，最近 Github 把 markdown 的解释器改为 kramdown , 语法见 <http://kramdown.rubyforge.org/syntax.html> 。
 
 不过在 _config.yml 添加了下段代码后 kramdown 编译器还是不支持 ~~删除线~~功能，换行不用打两个空格是可以的.
 
