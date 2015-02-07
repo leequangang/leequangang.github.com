@@ -6,7 +6,7 @@ published: ture
 ---
 
 
-##The Personal Analytics of My Life
+## The Personal Analytics of My Life
 
 - This will become a table of contents (this text will be scraped).
 {:toc}

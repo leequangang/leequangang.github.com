@@ -6,14 +6,14 @@ published: ture
 ---
 
 
-##Elasticsearch & Logstash & Kibana 日志管理系统
+## Elasticsearch & Logstash & Kibana 日志管理系统
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
 注:Elasticsearch与Logstash需要安装Java虚拟机，Kibana需要一个Web服务器。本身Logstash中内置也一个Elasticsearch和Kibana。
 
-###Elasticsearch
+### Elasticsearch
 
 Github项目地址[https://github.com/elasticsearch/elasticsearch](https://github.com/elasticsearch/elasticsearch)
 
@@ -37,7 +37,7 @@ Github项目地址[https://github.com/elasticsearch/elasticsearch](https://githu
 **注意：** 书中的mapping导入会出错，提示 boolean 型数据不能 be tokenized ，把最后的 "available" 字段改成 "not_analyzed"的即可。library 相当于建了一个数据库，book 是该数据库中的一张表，mapping 是这个表的结构（字段的类型、索引方式、存储方式等等），定义好这些后往表里面插入一条记录 ES 就会按照 mapping 定义的格式把记录进行分词、创建索引、存储等工作。
 
 
-####使用基本流程：
+#### 使用基本流程：
 
 1. 安装，用到中文可以安装[集成ik的ES版本](https://github.com/medcl/elasticsearch-rtf),启动方式见下面内容。查看是否启动,浏览器输入 http://localhost:9200/
 
@@ -54,7 +54,7 @@ Github项目地址[https://github.com/elasticsearch/elasticsearch](https://githu
 7. 删除索引库 curl -XDELETE http://localhost:9200/test/
 
 
-####RESTful语法
+#### RESTful语法
 
 GET用来获取资源，POST用来新建资源（也可以用于更新资源），PUT用来更新资源，DELETE用来删除资源。
 
@@ -116,12 +116,12 @@ pyes包
 
 （5）   安全性问题。正如在（1）中提到，使用 Get 的时候，参数会显示在地址栏上，而 Post 不会。所以，如果这些数据是中文数据而且是非敏感数据，那么使用 get；如果用户输入的数据不是中文字符而且包含敏感数据，那么还是使用 post为好。
 
-####版本1.0
+#### 版本1.0
 
 bin/elasticsearch 前台启动  
 bin/elasticsearch -d 后台启动
 
-####安装Marvel 监控插件
+#### 安装Marvel 监控插件
 
 - 运行`bin/plugin -i elasticsearch/marvel/latest`
 
@@ -136,7 +136,7 @@ bin/elasticsearch -d 后台启动
 
 只输出单条记录的源字段，不包含头信息 curl -XGET 'http://localhost:9200/twitter/tweet/1/_source'
 
-####插件
+#### 插件
 
 安装header--管理ES集群的，暂可不用
 
@@ -170,7 +170,7 @@ string, integer/long, float/double, boolean, and null, byte, short, binary
 }
 ~~~~
 
-####集成版ES
+#### 集成版ES
 
 集成ik版
 [https://github.com/medcl/elasticsearch-rtf](https://github.com/medcl/elasticsearch-rtf)
@@ -261,7 +261,7 @@ op_type=create或者_create：如果不存在就插入
 ~~~~
 
 
-###Logstash
+### Logstash
 
 [Logstash](https://download.elasticsearch.org/logstash/logstash/logstash-1.2.2-flatjar.jar) will give you a way to read, parse logs as well as push them into ES.
 
@@ -279,7 +279,7 @@ http://162.211.127.177:9292/index.html#/dashboard/file/logstash.json
 port:9292
 `logstash-1.2.2-flatjar\vendor\kibana\app\dashboards`下的logstash.json重命名为default.json就是logstash内置的Kibana界面，其他的.json是可以用户定制的界面
 
-###Kibana
+### Kibana
 
 kibana是一个功能强大的elasticsearch数据显示客户端，logstash已经内置了kibana，你也可以单独部署kibana，最新版的kibana3是纯html+js客户端，可以很方便的部署到Apache、Nginx等Http服务器。
 可以修改config.js来配置elasticsearch的地址和索引。
@@ -326,7 +326,7 @@ http://www.elasticsearch.org/tutorials/too-many-open-files/
 http://blog.zuobus.com/archives/65.html
 
 
-###References
+### References
 [1] [exploring elasticsearch][r1]
 
 [r1]: http://exploringelasticsearch.com/

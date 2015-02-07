@@ -6,12 +6,12 @@ published: ture
 ---
 
 
-##利用node-webkit将Blog做成本地app
+## 利用node-webkit将Blog做成本地app
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
-###Blog打包
+### Blog打包
 
 目的是把Blog用node-webkit打包成一个本地exe文件，不用在浏览器上运行。[这里有一个10-24打包的Blog版本](http://pan.baidu.com/s/1BsrH9)。
 
@@ -23,7 +23,7 @@ published: ture
 4. 另外最好使用[本地化的mathjax](http://pan.baidu.com/s/19WddI)，主要是删除了一些图片格式的符号，体积大减。Blog里面的外部链接在联网时仍可用，按Backspace键返回。
 5. 另外可以用图标替换工具来替换exe的图标
 
-###UPX压缩exe文件
+### UPX压缩exe文件
 
 [UPX](http://upx.sourceforge.net/)可以压缩exe、dll等格式的文件而不影响其正常使用，可视为压缩加壳。下载upx.exe即可使用，只有几百KB。
 
@@ -43,7 +43,7 @@ UPX 命令解释
 -k 保留备份文件
 ~~~~
 
-###References
+### References
 [1] [google][r1]
 
 [r1]: http://google.com "显示google主页"

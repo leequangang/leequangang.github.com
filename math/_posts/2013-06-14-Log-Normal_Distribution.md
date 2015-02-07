@@ -4,7 +4,7 @@ title: "Log Normal Distribution"
 ---
 
 
-##Log Normal Distribution
+## Log Normal Distribution
 
 In probability theory, a log-normal distribution is a continuous probability distribution of a random variable whose logarithm is normally distributed [[1]][r1].
 
@@ -18,7 +18,7 @@ Related Matlab function:
 lognfit、logncdf、lognpdf、lognrnd、
 histfit(A,25,'lognormal')
 
-###References
+### References
 
 [1] [Log-normal distribution][r1]
 

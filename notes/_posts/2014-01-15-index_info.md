@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: default_share
 title: "期刊信息查询"
 tags: [SCI, EI]
 published: ture
 ---
 
 
-##期刊信息查询
+## 期刊信息查询
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
@@ -14,7 +14,7 @@ published: ture
 
 转自：[中国科学院国家科学图书馆](http://www.las.ac.cn/zhinan/index.html)
 
-###如何查找哪些期刊被SCI收录
+### 如何查找哪些期刊被SCI收录
 
 通过Thomson Reuters公司的网站可以免费获取期刊被SCI数据库收录信息。
 网址：[http://scientific.thomson.com/mjl/](http://scientific.thomson.com/mjl/) 或 [http://www.thomsonscientific.com.cn/](http://www.thomsonscientific.com.cn/)
@@ -27,11 +27,11 @@ published: ture
 2. SCI-E（Science Citation Index Expanded)  
 网址：[http://ip-science.thomsonreuters.com/cgi-bin/jrnlst/jloptions.cgi?PC=D](http://ip-science.thomsonreuters.com/cgi-bin/jrnlst/jloptions.cgi?PC=D)
 
-###如何查找哪些期刊被EI收录
+### 如何查找哪些期刊被EI收录
 
 EI每年不定期更新所收录的期刊，查找哪些期刊被EI收录，必须进入[EI数据库](http://www.engineeringvillage.com) 以后，在右侧的Source title中进行检索或者浏览。
 
-###如何查找期刊的影响因子
+### 如何查找期刊的影响因子
 
 一种期刊在某年的影响因子是指该刊前两年发表论文的在当年平均被引率，国内外期刊影响因子查找办法分别如下：
 
@@ -50,7 +50,7 @@ EI每年不定期更新所收录的期刊，查找哪些期刊被EI收录，必�
 
 在同一学科内，影响因子的高低一定程度上表明该期刊学术影响力的大小。但须注意，不同学科的期刊影响因子可能会有很大差异，可比性不强。同时还需注意，目前并没有针对单篇文章的影响因子。
 
-###如何查找论文被引用的情况
+### 如何查找论文被引用的情况
 
 目前，主要使用[ISI Web of Science](http://isiknowledge.com/wos) 的Cited Reference Search功能来查期刊论文、会议论文、图书被国际期刊引用的情况。ISI Web of Science包含SCI-EXPANDED, SSCI, CPCI-S, BKCI-S, BKCI-SSH子库，可分别用于查询自然科学、社会科学、会议论文、自然图书、社科图书的引用情况。用户可以根据需求选择查询的子库，并通过被引用的作者、被引用的期刊、会议、专著和专利以及这些著作发表的年代等多个检索入口对检索条件进行限制检索。如果被检索的论文是SCI收录的，也可以直接通过对目标文章的检索看到该论文被引用的情况。同时该数据库平台还提供了引文定制功能，一旦目标论文有新的被引用情况，系统自动发送提醒邮件。
 

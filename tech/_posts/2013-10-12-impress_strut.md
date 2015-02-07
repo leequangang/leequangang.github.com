@@ -6,16 +6,16 @@ published: ture
 ---
 
 
-##Strut: 利用impress.js制作Web版PPT
+## Strut: 利用impress.js制作Web版PPT
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
-###impress.js
+### impress.js
 [impress的Github主页](https://github.com/bartaz/impress.js/)   
 impress.js可制作Web版的PPT，效果很炫，跟prezi类似。，这有两个Demo[中文](http://eyehere.net/wp-content/uploads/2012/11/impress_cn.html#/bored)跟[英文](http://bartaz.github.io/impress.js/#/bored)。但是impress制作起来很费劲，全是代码形式，这有一个[中文教程](http://eyehere.net/2012/impress-js-chinese-course-tutorial/)，可喜的是有人制作了很多种工具来方便使用。我个人感觉Strut是比较好用的一个。
 
-###Strut
+### Strut
 [Strut的Github主页](https://github.com/tantaman/Strut)  
 这有一个[网页版](http://strut.io/)的可用，导出时就选择做好的PPT然后ctrl+s保存。也可以下载一个编译好的[本地版](http://code.google.com/p/strut/downloads/list)在本地浏览器打开直接使用。不过本地版的功能好像不如网页版的多，可能现阶段版本间没有同步。
 
@@ -47,7 +47,7 @@ ps:后来换了个linux虚拟机，安装成功了。
 
 4. 第4、5步跟上面一样。
 
-###With Mathjax
+### With Mathjax
 后来测试了一下，把Strut里面的`\test\index.html`、`\app\index.html`、\app\preview_export 里面的`bespoke.html`、`handouts.html`、`impress.html`这五个html文件的`</head>`的前面里添上 Mathjax 的代码
 
 ~~~~
@@ -82,7 +82,7 @@ MathJax.Hub.Config({
 
 [这是我自己编译的一个本地版 with Mathjax](http://pan.baidu.com/s/1km05o)
 
-###References
+### References
 [1] [安装并使用Strut放映impress.js生成的ppt][r1]
 
 [r1]:http://my.oschina.net/u/943306/blog/156797 "安装并使用Strut放映impress.js生成的ppt"

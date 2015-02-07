@@ -5,7 +5,7 @@ tags: [jekyll, github, markdown, mathjax]
 ---
 
 
-##Github+jekyll+Mathjax 搭建 Blog
+## Github+jekyll+Mathjax 搭建 Blog
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
@@ -15,15 +15,15 @@ tags: [jekyll, github, markdown, mathjax]
 
 直到有一天上午看到了Markdown，然后是jekyll (虽说至今都没明白这是个啥，只知道他用ruby写的，可以建静态bolg)，然后是Github，接下来就是整整2天的折腾了。第一天Github,第二天jekyll+Github，也遇到了很多坑，在此记一下备用。
 
-###搭建Blog
+### 搭建Blog
 
-####1.在Github中建立名为 username.github.com的仓库
+#### 1.在Github中建立名为 username.github.com的仓库
 建好后去setting自动生成主页；网上找一个模版clone到本地然后做一下修改（说的简单，做起来也不这么轻松了）...
 多说一句Github的自建项目主页模版很漂亮！
 
 [一堆网站模版](https://github.com/mojombo/jekyll/wiki/Sites) (我用的是第5个überduper感觉既简洁又有色彩)
 
-####2.win7下安装本地jekyll环境(2014-9-15 更新)
+#### 2.win7下安装本地jekyll环境(2014-9-15 更新)
 
 新版的Jekyll有很多变化，还是不建议在 windows 下安装了，如果你愿意折腾的话可以看看这个
 [windows安装Jekyll教程](http://jekyll-windows.juthilo.com/)
@@ -78,11 +78,11 @@ jekyll中文编码问题 `C:\Ruby192\lib\ruby\gems\1.9.1\gems\jekyll-1.0.3\lib\j
 
      self.content = File.read(File.join(base, name), :encoding => "utf-8")
 
-####3.Github for win上传
+#### 3.Github for win上传
 
 上传到Github
 
-####4.mathjax的兼容问题
+#### 4.mathjax的兼容问题
 
 在_layouts/default.html中`<head>`标签添加
 
@@ -116,10 +116,10 @@ $$
 \end{equation}
 $$
 
-####5.添加Disqus评论模块
+#### 5.添加Disqus评论模块
 国外第三方评论系统
 
-####6.代码
+#### 6.代码
 
 可以用三个以上的`~~~`来定义代码块开始与结束，前后要留有空行如
 
@@ -161,7 +161,7 @@ int main()
 {% endhighlight %}
 
 
-###注意 
+### 注意 
 
 - .md文件名不能是中文 否则会出错
 - 文件名的单词间不能有空格，用+代替(+的话存在url转义问题，有时候不注意会出错，还是用_吧！)
@@ -229,7 +229,7 @@ int main()
 - [Markdown的一些常用语法[6]](http://hawstein.com/posts/markdown-syntax.html)
 
 
-###参考
+### 参考
 [0] [google][f0]
 
 [f0]: http://google.com "显示google主页"

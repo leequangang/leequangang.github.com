@@ -6,14 +6,14 @@ published: ture
 ---
 
 
-##tex与pdf之间正反向搜索
+## tex与pdf之间正反向搜索
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
   正反向搜索意思是双击一段tex代码可以定位到对应到的pdf段落，同样双击一段pdf文本可以定位到相应的tex代码。学习了[“常用编辑器正反向搜索的配置”][r1]中的方法，挺复杂的，下面简单记一下自己的测试结果。默认已经将需要用到的命令写入环境变量。
   
-###所需条件
+### 所需条件
 
 1. 编译tex时要生成扩展名为synctex的索引文件
 
@@ -36,7 +36,7 @@ published: ture
 
 接下来主要讲一下notepad++与pdf间的正反向搜索。
 
-###pdf-->tex
+### pdf-->tex
 **pdf-->tex需要配置pdf阅读器**  
 
 - notepad++:下载SumatraPDF，在"选项-设置-反向搜索命令行"中填入`notepad++.exe -n%l "%f"`,默认notepad++已经加入环境变量。打开具有同名synctex索引文件的pdf时会出现以上选项，否则没有，如果没有该选项就在高级选项中加入一行`InverseSearchCmdLine = notepad++.exe -n%l "%f"`  
@@ -45,11 +45,11 @@ published: ture
 
 使用时双击pdf的文字即可，基本上是按行定位的，如果有一段话没有换行则定位到该段落，如果每句话在tex中占一行则可定位到该行。
 
-###tex-->pdf
+### tex-->pdf
 notepad++ F5 添加`SumatraPDFview.exe -pdffile="$(CURRENT_DIRECTORY)\$(NAME_PART).pdf" -srcfile="$(CURRENT_DIRECTORY)\$(NAME_PART).tex" -line=$(CURRENT_LINE) -editor="notepad++.exe -n%l \"%f\""`，不过这个好像只对单一tex文件有效，对于通过一个主文件input或者include来添加段落的形式无效，这个也感觉用处不大，有兴趣的可以试试[“常用编辑器正反向搜索的配置”][r1]中的方法
 
 
-###References
+### References
 [1] [常用编辑器正反向搜索的配置][r1]
 
 [r1]: http://bbs.ctex.org/forum.php?mod=viewthread&tid=49386&extra=&page=1
