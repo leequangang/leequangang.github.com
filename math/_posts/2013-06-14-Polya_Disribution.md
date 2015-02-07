@@ -4,27 +4,27 @@ title: "Dirichlet-multinomial distribution (Polya Disribution)"
 ---
 
 
-##Dirichlet-multinomial distribution (Polya Disribution)
+## Dirichlet-multinomial distribution (Polya Disribution)
 
 - This will become a table of contents (this text will be scraped).
 {:toc}
 
 前记：这部分内容是最近看 LDA 中的各种文献所思所想，记录下来备忘，欢迎大家点评。其实这个博客也是受许多学者的科技博客的影响才建立的，他们的读书笔记、学习心得等给我很大的帮助，这种分享知识的精神也是我很赞赏的。主体平台搭建用了整2天的时间，希望能够维持下去。
 
-###一些基本概念[^1]
+### 一些基本概念[^1]
 
 个人理解 LDA 中的前半部分 $$\alpha\longrightarrow\theta\longrightarrow z$$ 就是波利亚分布。即先从 Diri 中得到各 topic 的分布概率，然后依据该概率下的 Mult 分布采样得到一串 topic 序列（再然后就是从该 topic 序列中采样得到每个word）。
 
-####Probability mass function
+#### Probability mass function
 
 **pmf** is a function that gives the probability that a discrete random variable is exactly equal to some value.
 
 - 通常 pmf 作为离散概率分布的定义
 - pmf 不同于 pdf，除了离散与连续的区别外，pdf 的值并不是概率，而是对某个区间的积分来推出该区间的概率。
 
-####伯努利分布和二项分布
+#### 伯努利分布和二项分布
 
-#####Bernoulli distribution
+##### Bernoulli distribution
 
 伯努利分布只有一个参数 $$P=\{p,1-p\}$$，采样的结果是 0 或 1。
 
@@ -32,7 +32,7 @@ title: "Dirichlet-multinomial distribution (Polya Disribution)"
 - The categorical distribution is the generalization of the Bernoulli distribution for variables with any constant number of discrete values.
 - The Beta distribution is the conjugate prior of the Bernoulli distribution.
 
-#####Binomial Distribution
+##### Binomial Distribution
 
 二项分布有两个参数分别是实验次数 $$N$$ 与概率 $$P=\{p,1-p\}$$，其采样结果 $$Y=\{k, N-k\}$$ 即实验中 0 的个数与 1 的个数。二项分布即重复 N 次的伯努利试验 (Bernoulli trial)，其概率密度函数为
 
@@ -46,7 +46,7 @@ $$
 
 实际上，当 N=1 时，二项分布就是伯努利分布。
 
-####Categorical distribution
+#### Categorical distribution
 
 **分类分布是伯努利分布的推广**  
 分类分布只有一个参数 $$P$$，简单理解为一个骰子有 K 个面，每个面的概率是 $$P=\{p_k\}$$, $$k\in [1,K]$$, $$\sum_{k=1}^K p_k=1$$. 扔这个骰子会产生一个输出 $$x$$（输出的就是类别标签，此处是 $$[1,K]$$ 内的值），则 $$x\sim Cat(P)$$，发生概率就是
@@ -60,7 +60,7 @@ $$
 
 - Dirichlet distribution is the conjugate prior of the Categorical distribution (and also the Multinomial distribution).
 
-####Multinomial distribution
+#### Multinomial distribution
 
 **多项式分布是二项分布的推广**  
 多项式分布有两个参数分别是 $$N$$ 与 $$P$$，同样还是上面的骰子，扔这个骰子 N 次就可以得到一个序列$$X=\{2,3,K,...,6\}$$，不考虑序列 $$X$$ 产生的顺序，只考察扔 N 次会出现几个 1，几个 2，几个 K...或者说只考虑投 N 次骰子得到 $$Y=\{n_1,n_2,...,n_K\}$$, $$\sum_{k=1}^K n_k=N$$ 的概率, 这就是 $$Y\sim Mult(N,P)$$，则
@@ -109,14 +109,14 @@ $$
 
 - N=1的多项式分布即 Categorical 分布
 
-####Dirichlet distribution
+#### Dirichlet distribution
 未完待续
 
-###Polya Distrubution
+### Polya Distrubution
 
-####模型
+#### 模型
 
-####计算
+#### 计算
 
 
 
