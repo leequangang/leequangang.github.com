@@ -10,10 +10,38 @@ font-family:Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
 text-align:left;
 }
 
+
+h1 {
+border-bottom:2px solid #e5e5e5;
+color:#fba919;
+font-size:28px;
+font-family:'Gentium Book Basic',Tahoma,Helvetica,Arial;
+padding:50px 0 0 0;
+}
+
+h2 {
+border-bottom:1px solid #e5e5e5;
+font-size:24px;
+color: #F7E98D;
+}
+
+h3 {
+border-bottom:1px solid #e5e5e5;
+font-size:22px;
+color: #F7E98D;
+}
+
+h4 {
+font-size:20px;
+color: #F7E98D;
+}
+
+strong{
+color: #FFFDED;
+}
+
 a {
-color:#0383c9;
-font-weight:700;
-text-decoration:none;
+color:#30AEF4;
 }
 
 a:hover {
@@ -94,27 +122,6 @@ word-wrap:break-word;
 }
 
 
-h1 {
-border-bottom:2px solid #e5e5e5;
-color:#fba919;
-font-size:28px;
-font-family:'Gentium Book Basic',Tahoma,Helvetica,Arial;
-padding:50px 0 0 0;
-}
-
-h2 {
-border-bottom:1px solid #e5e5e5;
-font-size:24px;
-}
-
-h3 {
-border-bottom:1px solid #e5e5e5;
-font-size:22px;
-}
-
-h4 {
-font-size:20px;
-}
 
 /*** Footer ***/
 
