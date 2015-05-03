@@ -181,6 +181,13 @@ tr.alt td
   background-color:#EAF2D3;
   }
 
+.go-top {
+display: block; 
+right: 5%; 
+position: fixed; 
+bottom: 30px;
+}
+
 .pos-top, .pos-btn {
   color:#FBA919;
   cursor:pointer;

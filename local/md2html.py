@@ -28,7 +28,7 @@ html_head = """
 <meta name="Leequangang" charset="utf-8">
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="http:leequangang.github.io/local/local_dark.css">
+<link rel="stylesheet" type="text/css" href="http:leequangang.github.io/local/local_light.css">
 
 <!-- This is for Mathjax -->
 
@@ -60,7 +60,7 @@ html_head = """
 
 html_footer = """ 
 
-<div class="go-top" style="display: block; right: 5%; position: fixed; bottom: 30px; ">
+<div class="go-top" >
 <i class="pos-btn" onclick="window.scrollTo('0', '0')"><i class="fa fa-angle-double-up"></i></i>
 </div>
 
