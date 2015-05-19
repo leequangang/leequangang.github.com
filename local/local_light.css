@@ -152,7 +152,7 @@ table
 td, th 
   {
   font-size:1em;
-  border:1px solid  #888;
+  border:1px solid  #2C3E50;
   padding:3px 7px 2px 7px;
   }
 
@@ -162,8 +162,8 @@ th
   text-align:left;
   padding-top:5px;
   padding-bottom:4px;
-  background-color:#e7e7e7;
-  color:#7e7e7e;
+  background-color:#D6DBDF;
+  color:#2C3E50;
   }
 
 tr.alt td 
