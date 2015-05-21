@@ -142,6 +142,6 @@ However, conflating the categorical and multinomial distributions can lead to pr
 
 
 
-[^1]: 大部分概念性东西直接贴自维基百科，可以去搜索关键词，就不一一列出了，在此感谢[Wikipedia](http://en.wikipedia.org/wiki/Main_Page) 提供的知识共享的平台，也感谢那些编辑wiki词条的分享者们，让我能够方便地获取所需要的知识，我要是有钱一定捐赠你们^_^
+[^1]: 大部分概念性东西直接贴自维基百科，可以去搜索关键词，就不一一列出了，在此感谢[Wikipedia](http://en.wikipedia.org/wiki/Main_Page) 提供的知识共享的平台，也感谢那些编辑wiki词条的分享者们
 
 [^2]: 注意[[2][r2]]：在自然语言处理领域，categorical 和 multinomial 分布是混为一谈的，当提到 multinomial 分布时实质意味着是 categorical 分布；当然，categorical 也可以视为 multinomial 的特殊情况。
