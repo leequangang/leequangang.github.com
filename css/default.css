@@ -459,5 +459,5 @@ background-color: #555;
 
 #ds-thread #ds-reset .ds-textarea-wrapper textarea, #ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {
 background-color: #777;
-color: #ddd;
+color: #ddd !important;
 }
