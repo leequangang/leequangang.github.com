@@ -14,7 +14,7 @@ layout: nil
    <email>leequangang@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post  in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://leequangang.github.com{{ post.url }}"/>
