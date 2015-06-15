@@ -1,14 +1,14 @@
 #coding=utf-8  
 
 """
-ÓÃmistuneÀ´½âÎömdÎÄ¼ş£¬×Ô´øÄ¿Â¼£¬²»ĞèÒªÉèÖÃ[TOC]
+ç”¨mistuneæ¥è§£æmdæ–‡ä»¶ï¼Œè‡ªå¸¦ç›®å½•ï¼Œä¸éœ€è¦è®¾ç½®[TOC]
 
 python  md2html.py  XX.md   YY.md ....
 
 
-Êä³ö£ºXX.html  YY.html ...
+è¾“å‡ºï¼šXX.html  YY.html ...
 
-·µ»ØµÄhtmlÎÄ¼şÖĞÓÃµ½×Ô¼º¶¨ÒåµÄĞÅÏ¢£¬Èçcss£¬mathjaxµÈÏêÇé¼û html_head¡¢html_footer²¿·Ö
+è¿”å›çš„htmlæ–‡ä»¶ä¸­ç”¨åˆ°è‡ªå·±å®šä¹‰çš„ä¿¡æ¯ï¼Œå¦‚cssï¼Œmathjaxç­‰è¯¦æƒ…è§ html_headã€html_footeréƒ¨åˆ†
 
 """
 
@@ -17,7 +17,7 @@ import mistune
 import sys
 
 reload(sys)
-sys.setdefaultencoding('utf-8')#½â¾ö×Ö·û´®ÂÒÂëÎÊÌâ
+sys.setdefaultencoding('utf-8')#è§£å†³å­—ç¬¦ä¸²ä¹±ç é—®é¢˜
 
 top_level = 1
 header_info = []
@@ -76,7 +76,7 @@ html_footer = """
 """ 
 
 
-class headerRenderer(mistune.Renderer):#¸ü»»mistuneÖĞheaderÊä³ö£¬Ìí¼ÓidÊôĞÔ
+class headerRenderer(mistune.Renderer):#æ›´æ¢mistuneä¸­headerè¾“å‡ºï¼Œæ·»åŠ idå±æ€§
     def header(self, text, level, raw=None):
 		global top_level, header_info
 		header_info.append([level, raw, text])
@@ -84,13 +84,13 @@ class headerRenderer(mistune.Renderer):#¸ü»»mistuneÖĞheaderÊä³ö£¬Ìí¼ÓidÊôĞÔ
 		return '<h%d id="%s">%s</h%d>\n' % (level, raw, text, level)
 
 
-def header_md():#Êä³ömdĞÎÊ½µÄheaderÁĞ±í
+def header_md():#è¾“å‡ºmdå½¢å¼çš„headeråˆ—è¡¨
 	global top_level, header_info
 	toc_md = '# Table of contents \n'
 	for i in range(len(header_info)):
-		toc_md += '%s- [%s](#%s)\n' %( (header_info[i][0]-top_level)*'    ', header_info[i][2], header_info[i][1])#°´headerµÈ¼¶µÄËõ½øÁ¿Ğ´³ÉmdÁĞ±í
+		toc_md += '%s- [%s](#%s)\n' %( (header_info[i][0]-top_level)*'    ', header_info[i][2], header_info[i][1])#æŒ‰headerç­‰çº§çš„ç¼©è¿›é‡å†™æˆmdåˆ—è¡¨
 
-	top_level = 1 #ÖØĞÂÉè¶¨
+	top_level = 1 #é‡æ–°è®¾å®š
 	header_info = []
 	return toc_md
 
@@ -98,9 +98,9 @@ def header_md():#Êä³ömdĞÎÊ½µÄheaderÁĞ±í
 def md2html(context_md):
 	renderer = headerRenderer()
 	md = mistune.Markdown(renderer=renderer)
-	context_html = md.render(context_md) #½âÎömdÎÄ¼şÕıÎÄ£¬ĞŞ¸ÄmistuneÖĞheaderÊä³ö£¬Ìí¼Óid
+	context_html = md.render(context_md) #è§£æmdæ–‡ä»¶æ­£æ–‡ï¼Œä¿®æ”¹mistuneä¸­headerè¾“å‡ºï¼Œæ·»åŠ id
 
-	toc_html = mistune.markdown(header_md())#½âÎömdĞÎÊ½µÄÄ¿Â¼ÁĞ±í
+	toc_html = mistune.markdown(header_md())#è§£æmdå½¢å¼çš„ç›®å½•åˆ—è¡¨
 
 	return html_head + toc_html + context_html + html_footer
 
@@ -109,13 +109,13 @@ if __name__=='__main__':
 
 	for i in range(1, len(sys.argv)):
 
-		f = open( sys.argv[i], 'r')#´ò¿ªÎÄ¼ş
+		f = open( sys.argv[i], 'r')#æ‰“å¼€æ–‡ä»¶
 		context_md = f.read()
 
 		list = sys.argv[i].strip().split('.')
-		filename = list[0]#ÎÄ¼şÃû
-		outfile = open(filename+'.html', 'w')#´´½¨html
-		outfile.write(md2html(context_md))#½âÎöÊä³ö
+		filename = list[0]#æ–‡ä»¶å
+		outfile = open(filename+'.html', 'w')#åˆ›å»ºhtml
+		outfile.write(md2html(context_md))#è§£æè¾“å‡º
 		f.close( )
 		outfile.close( )
 

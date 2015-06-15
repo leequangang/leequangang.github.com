@@ -192,4 +192,10 @@ color: #2C3E50;
 font-size: 16px;
 }
 
+.toc {
+display: block; 
+right: 5%; 
+top: 60px;
+position: fixed; 
 
+}

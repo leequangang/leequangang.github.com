@@ -1,0 +1,98 @@
+/* General styles for all menus */
+.cbp-spmenu {
+	background: #f2f2f2;
+	position: fixed;
+}
+
+.cbp-spmenu h1 {
+	color: #2C3E50;
+	font-size: 18px;
+	padding: 20px;
+	margin: 0;
+	background: #D6DBDF;
+}
+
+
+.cbp-spmenu a {
+	text-decoration:none;
+	font-size: 18px;
+}
+
+.cbp-spmenu a:visited {color: #2C3E50}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+.cbp-spmenu ul {
+margin: 4px 0 4px -2px;
+padding-left: 25px;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-horizontal {
+	width: 100%;
+	height: 150px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.cbp-spmenu-horizontal a {
+	float: left;
+	width: 20%;
+	padding: 0.8em;
+	border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -340px;
+}
+
+.cbp-spmenu-right {
+	right: -640px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 120px;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+
+
