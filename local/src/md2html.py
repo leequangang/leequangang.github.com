@@ -28,7 +28,9 @@ html_head = """
 <meta name="Leequangang" charset="utf-8">
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="http:leequangang.github.io/local/local_light.css">
+<link rel="stylesheet" type="text/css" href="http://leequangang.github.io/local/src/css/local_light.css">
+<link rel="stylesheet" type="text/css" href="http://leequangang.github.io/local/src/css/menu.css" />
+<script src="http://leequangang.github.io/local/src/css/classie.js"></script>
 
 <!-- This is for Mathjax -->
 
@@ -53,16 +55,39 @@ html_head = """
 <title>LQG</title>
 </head>
 
-<body>
+<body class="cbp-spmenu-push">
+
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="menu-s1" style="width: 320px;overflow: auto;
+">
+
 
 """
 
 
 html_footer = """ 
 
-<div class="go-top" >
-<i class="pos-btn" onclick="window.scrollTo('0', '0')"><i class="fa fa-angle-double-up"></i></i>
+<div class="toc">
+<i id="showLeftPush" title='目录'><i class="fa fa-list fa-2x"></i></i>
 </div>
+
+<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+<script>
+	var menuLeft = document.getElementById( 'menu-s1' ),
+		showLeftPush = document.getElementById( 'showLeftPush' ),
+		body = document.body;
+
+	showLeftPush.onclick = function() {
+		classie.toggle( this, 'active' );
+		classie.toggle( body, 'cbp-spmenu-push-toright' );
+		classie.toggle( menuLeft, 'cbp-spmenu-open' );
+		disableOther( 'showLeftPush' );
+	};
+</script>
+
+<div class="go-top" >
+<i class="pos-btn" onclick="window.scrollTo('0', '0')"><i class="fa fa-angle-double-up fa-lg"></i></i>
+</div>
+
 
 <div id="footer">
 
@@ -102,7 +127,7 @@ def md2html(context_md):
 
 	toc_html = mistune.markdown(header_md())#解析md形式的目录列表
 
-	return html_head + toc_html + context_html + html_footer
+	return html_head + toc_html +"</nav>"+ context_html + html_footer
 
 
 if __name__=='__main__': 
