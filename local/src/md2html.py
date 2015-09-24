@@ -65,6 +65,10 @@ html_head = """
 
 
 html_footer = """ 
+<div class="home">
+<a href="./index.html" title='主页'><i class="fa fa-home fa-2x"></i></a>
+</div>
+
 
 <div class="toc">
 <i id="showLeftPush" title='目录'><i class="fa fa-list fa-2x"></i></i>
