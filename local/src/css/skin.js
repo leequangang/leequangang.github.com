@@ -43,8 +43,9 @@ document.getElementById("cssfile").setAttribute("href",css_link);//定位id="css
 //函数:change_css()
 //功能:点击更换css,并写入cookie,保存
 
-function change_css(css_light,css_dark){
-
+function change_css(){
+var css_light = "http://leequangang.github.io/local/src/css/light.css";
+var css_dark = "http://leequangang.github.io/local/src/css/dark.css";
 var cookie = getCookie("mycss");//传入cookie名，取回cookie中css
 var css_link = cookie?cookie:css_light;//cookie是否存在,存在则用,不存在则用默认的css
 if(css_link == css_light){
